@@ -1,0 +1,131 @@
+/*------ Media Styles -------*/
+@media screen and (min-width: 1375px) {
+  .home-slider .indicator-panel {
+    top: 32rem;
+  }
+}
+@media screen and (max-width: 1212px) {
+  .home-slider .indicator-panel {
+    height: 120px;
+  }
+  .product-thumbnails a.btn {
+    top:48px;
+  }
+}
+
+@media screen and (max-width: 1096px) {
+  .home-slider .indicator-panel {
+    top: 48%;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .product-thumbnails a.btn {
+    top:80px;
+  }
+  body.home .col-md-3 img, body.home .col-md-2 img {
+    max-width: 200px;
+  }
+  .home-slider .indicator-panel {
+    top: 50%;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm-4, .col-sm-3, .navbar .utilities .utils {
+    text-align: center;
+  }
+  .col-sm-3 {
+    margin: 15px;
+  }
+  .navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  /* Home Page */
+  body {
+    padding-top: 105px;
+  }
+  body.home .col-md-3 img, body.home .col-md-2 img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .padding-right-60, .padding-right-120 {
+    padding-right: 15px;
+  }
+  .padding-left-60, .padding-left-120 {
+    padding-left: 15px;
+  }
+  .home-slider .indicator-panel {
+    top: 40%;
+    width: 80%;
+  }
+  .home-about, .home-features {
+    text-align: center;
+  }
+  .product-thumbnails a.btn {
+    display: none;
+  }
+  #wordCarousel .item p {
+    font-size: 100%;
+  }
+  #wordCarousel .item p.attrib {
+    font-size: 90%;
+  }
+  /* Landing pages */
+  .landing-nav .landing-nav-btn.automated {
+    border-bottom: 3px solid #fff;
+    border-right: 0;
+  }
+  .landing .header h1 {
+    text-align: center;
+    font-size: 36px;
+  }
+  .product-testimonials .insight {
+    width: 220px;
+    bottom: 20px;
+  }
+  .product-testimonials .insight>img {
+    max-width: 20%;
+  }
+  .product-testimonials .insight p {
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+  .product-testimonials .insight p.signed {
+    margin-bottom: 0;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 605px) {
+  .indicator-panel {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .utilities .col-sm-12.mobile-contact {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .utilities .col-sm-4, .utilities .col-sm-8 {
+    display: none;
+  }
+  .btn.contact {
+    font-size: 3.6vw;
+  }
+  .breadcrumb {
+    font-size: 80%;
+  }
+  .product-testimonials .insight {
+    display: none;
+  }
+  .contact .first .dealer {
+    border-top: 1px dotted #eee;
+  }
+}
