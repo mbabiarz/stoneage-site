@@ -1,0 +1,121 @@
+---
+layout: default
+page-type: contact
+title: Contact StoneAge
+excerpt: Contact and location information, sales and dealer information, support information for StoneAge high pressure waterblasting, sewer jetting, and downhole cleaning equipment.
+permalink: /contact
+main-contact: yes
+---
+
+<!-- Contact Main -->
+<section id="contact">
+  <!-- Google Map -->
+  <div id="map-canvas"></div>
+
+  <div class="fluid-container landing-nav margin-bottom-30">
+    <div class="container">
+      <h1 class="page-heading">Call Us +1 (970) 259-2869 &nbsp;|&nbsp; Toll Free (866) 795-1586</h1>
+      <h4 class="small">OUR SUPPORT TEAM IS HERE TO HELP. WE GLADLY RESPOND TO INQUIRIES AND PROVIDE ADVICE ON YOUR WATERBLAST CHALLENGES. <span class="grey">Monday through Friday 8:00am - 5:00pm MST</span></h4>
+    </div>
+  </div>
+
+  <!-- Nav tabs -->
+  <div class="contact-nav container">
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a href="#contact-tab" aria-controls="contact-tab" role="tab" data-toggle="tab">Contact</a></li>
+      <li role="presentation"><a href="#ordering-tab" aria-controls="ordering-tab" role="tab" data-toggle="tab">Ordering</a></li>
+      <li role="presentation"><a href="#wb-tab" aria-controls="wb-tab" role="tab" data-toggle="tab">Waterblast Dealers</a></li>
+      <li role="presentation"><a href="#sewer-tab" aria-controls="sewer-tab" role="tab" data-toggle="tab">Sewer Dealers</a></li>
+      <li role="presentation"><a href="#downhole-tab" aria-controls="downhole-tab" role="tab" data-toggle="tab">Downhole Dealers</a></li>
+    </ul>
+    <div class="tab-content padding-tb-30">
+      
+      <!-- Contact Tab Content -->
+      <div role="tabpanel" class="tab-pane active" id="contact-tab">
+        <div class="row">
+          <div class="col-sm-4 contact-method">
+            <h2>
+            <i class="fa fa-map-marker"></i><br/>Locations</h2>
+            <hr>
+            <h3>Durango Headquarters</h3>
+            <address>
+              466 South Skylane Drive <br>
+              Durango, CO 81303 <br><br>
+              +1 (970) 259-2869 <br>
+              <a href="mailto:sales@stoneagetools.com" class="">sales@stoneagetools.com</a>
+            </address>
+            <p class="small">Monday to Friday 8:00am&ndash;5:00pm MST</p>
+            <hr>
+            <h3>Houston Area Office</h3>
+            <p>
+              +1 (281) 888-5069<br/>
+              <a href="/houston">View details</a></p>
+          </div>
+          <!-- E-mail Us -->
+          <div class="col-sm-4 contact-method">
+            <h2><i class="fa fa-paper-plane"></i><br/>Email Us</h2>
+            <form method="post" action="http://formspree.io/margaret.babiarz@stoneagetools.com" name="contactform" id="contactform">
+              <fieldset>
+                <input name="name" type="text" id="name" class="form-control" size="30" placeholder="Name">
+                <br>
+                <input name=company type="text" id="company" class="form-control" size="30" placeholder="Company">
+                <br>
+                <input name="email" type="text" id="email" class="form-control" size="30" placeholder="Email">
+                <br>
+                <input name="phone" type="text" id="phone" class="form-control" size="30" placeholder="Phone">
+                <br>
+              </fieldset>
+              <fieldset>
+                <textarea name="comments" cols="40" rows="25" id="comments" class="form-control" placeholder="Message"></textarea>
+              </fieldset>
+              <fieldset>
+                <button type="submit" class="btn btn-lg btn-block" id="submit" value="Submit">Send Message</button>
+                <input type="hidden" name="_next" value="email-thanks.html" />
+                <input type="hidden" name="_subject" value="New web contact form submission!" />
+            </fieldset>
+          </form>
+          </div> 
+          <!-- Social Share-->
+          <div class="col-sm-4 contact-method">
+            <h2><i class="fa fa-share-alt"></i><br/>Share With us</h2>
+            <p><span class="thin">We welcome general questions, comments and feedback online.</span></p>
+            <div class="padding-tb-30 margin-top-30 margin-bottom-30">
+              <a href="https://twitter.com/stoneagetools" target="_blank" class="btn btn-block share">Tweet @Stoneagetools</a>
+              <a href="https://www.facebook.com/Stoneagetools/" target="_blank" class="btn btn-block share">Send Facebook Message</a>
+            </div>
+          </div> 
+        </div>
+      </div>
+      
+      <!-- Ordering Tab Content -->
+      <div role="tabpanel" class="tab-pane" id="ordering-tab">
+        <div class="row margin-bottom-120">
+          <div class="col-sm-3 contact-method">
+            <h3 class="bold">US &amp; Canada Waterblast Orders</h3>
+            <p><a href="#contact-tab" data-toggle="tab">Contact StoneAge directly</a> to purchase in the US or Canada.</p>
+          </div>
+          <div class="col-sm-3 contact-method">
+            <h3 class="bold">International Waterblast Orders</h3>
+            <p><a href="#wb-tab" data-target="#wb-tab" data-toggle="tab">Contact a dealer in your region</a> to purchase internationally.</p>
+          </div>
+          <div class="col-sm-3 contact-method">
+            <h3 class="bold">Sewer Tools Orders</h3>
+            <p><a href="#sewer-tab" data-toggle="tab">Contact a dealer in your region</a> to purchase.</p>
+          </div>
+          <div class="col-sm-3 contact-method">
+            <h3>Downhole Tools Orders</h3>
+            <p><a href="#downhole-tab" data-toggle="tab">Contact a dealer in your region</a> to purchase.</p>
+          </div>
+        </div>
+      </div>
+      
+      {% include waterblast-dealers.html %}
+      {% include sewer-dealers.html %}
+      {% include downhole-dealers.html %}
+      
+    </div> 
+  </div>
+  <!-- End Nav tabs -->
+
+</section>
+<!-- End Contact Main -->

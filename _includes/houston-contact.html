@@ -1,0 +1,36 @@
+{% if page.houston-contact %}
+<!--Google Maps API-->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnycWatbGyK6ldFqErjFtko1yeMclNUOA&amp;sensor=true"></script>
+<script>
+  function initialize() {
+    var mapOptions = {
+      center: new google.maps.LatLng(29.680113,-95.1667929),
+      zoom: 5,
+      mapTypeId: google.maps.MapTypeId.HYBRID,
+      scrollwheel: false,
+      draggable: true,
+      panControl: true,
+      zoomControl: true,
+      mapTypeControl: true,
+      scaleControl: true,
+      streetViewControl: true,
+      overviewMapControl: true,
+      rotateControl: true,
+    };
+    var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+    var contentString = 'StoneAge Houston &bull; 2150 Pansy St. &bull; Pasadena, TX 77503';
+    var infowindow = new google.maps.InfoWindow({
+      content: contentString
+    });
+    var marker = new google.maps.Marker({
+      position: mapOptions.center,
+      map: map,
+      title: 'StoneAge, Inc.'
+    });  
+    marker.addListener('click', function() {
+      infowindow.open(map, marker);
+    });
+  }
+  google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+{% endif %}
