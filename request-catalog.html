@@ -1,0 +1,67 @@
+---
+layout: default
+page-type: page
+title: StoneAge Waterblast and Sewer Product Catalog Request
+permalink: /request-catalog
+---
+
+<div class="fluid-container landing-nav">
+    <div class="container">
+      <h1 class="page-heading">Request a Catalog</h1>
+    </div>
+  </div>
+
+  <section class="container padding-tb-30">
+    <div class="col-sm-7">
+      <p>Please fill out the request below to receive printed issues of our current tool catalogs:</p>
+      <form method="post" action="http://formspree.io/margaret.babiarz@stoneagetools.com" name="catalog-request" id="contactform">
+        <fieldset>
+          <input name="name" type="text" id="name" size="30" placeholder="Name" class="form-control">
+          <br>
+          <input name=company type="text" id="company" size="30" placeholder="Company" class="form-control">
+          <br>
+          <input name="address1" type="text" id="address1" size="30" placeholder="Street Address" class="form-control">
+          <br>
+          <input name="address2" type="text" id="address2" size="30" placeholder="Street Address Line 2" class="form-control">
+          <br>
+          <input name="state" type="text" id="state" size="30" placeholder="State/Province" class="form-control">
+          <input name="city" type="text" id="city" size="30" placeholder="City" class="form-control">
+          <br>
+          <input name="code" type="text" id="code" size="30" placeholder="Zip/Postal Code" class="form-control">
+          <input name="country" type="text" id="country" size="30" placeholder="Country" class="form-control">
+          <br>
+          <input name="email" type="email" id="email" size="30" placeholder="Email" class="form-control">
+          <br>
+          <input name="phone" type="text" id="phone" size="30" placeholder="Phone" class="form-control">
+          <br>
+        </fieldset>
+        <fieldset class="checkbox">
+          <label>Which catalog would you like?</label>
+          <input type="checkbox" name="wb-catalog" value="Waterblast Tools Catalog"> <span>Waterblast Tools</span>
+          <input type="checkbox" name="sw-catalog" value="Sewer Tools Catalog"> <span>Sewer Tools</span>
+        </fieldset>
+        <fieldset>
+          <textarea name="comments" cols="40" rows="5" id="comments" placeholder="Additional Instructions"></textarea>
+        </fieldset>
+        <fieldset>
+          <button type="submit" class="btn btn-lg btn-block" id="submit" value="Submit">Send Request</button>
+          <input type="hidden" name="_next" value="email-thanks.html" />
+                    <input type="hidden" name="_subject" value="New catalog request from web!" />
+        </fieldset>
+      </form>
+    </div>
+    
+    <div class="col-sm-3 col-sm-offset-1">
+      <h2 class="section-heading">Product Catalogs</h2>
+      <div class="row margin-bottom-30">
+        <a href=product-catalogs.html><img src="assets/img/catalog_cover_wb_2016.jpg" class="img-responsive" alt="2016 StoneAge Waterblast Tools Catalog">
+        </a>
+      </div>
+      <div class="row margin-bottom-30">
+        <a href=product-catalogs.html><img src="assets/img/warthog_catalog_cover_2014.jpg" class="img-responsive" alt="2016 StoneAge Waterblast Tools Catalog">
+        </a>
+      </div>
+    </div>
+  </section>
+
+{% include footer-cta.html %}
