@@ -209,6 +209,31 @@ ul.navigational li {
 ul.navigational li:first-of-type {
   border-left: 0;
 }
+h2.whr-group {
+  background: #f6f6f6;
+  font-weight: 600;
+  padding: 2px 10px;
+  letter-spacing: 0;
+  font-size: 16px;
+  color: #888;
+}
+ul.whr-items {
+  list-style-type: none;
+}
+li.whr-item>h3>a {
+  position: relative;
+  text-transform: none;
+  padding-left: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+li.whr-item>h3>a:before {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  font-family: FontAwesome;
+  content: "\f0a9";
+}
 
 /* Header & Navigation */
 .navbar .utilities {
