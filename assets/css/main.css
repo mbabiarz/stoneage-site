@@ -136,6 +136,7 @@ p.width-90 {
 }
 .btn, .btn:visited {
   background-color: #9c8061;
+  background-image: none;
   border-radius: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -216,23 +217,6 @@ h2.whr-group {
   letter-spacing: 0;
   font-size: 16px;
   color: #888;
-}
-ul.whr-items {
-  list-style-type: none;
-}
-li.whr-item>h3>a {
-  position: relative;
-  text-transform: none;
-  padding-left: 20px;
-  font-weight: 400;
-  letter-spacing: 0;
-}
-li.whr-item>h3>a:before {
-  position: absolute;
-  top: -2px;
-  left: 0;
-  font-family: FontAwesome;
-  content: "\f0a9";
 }
 
 /* Header & Navigation */
@@ -898,7 +882,7 @@ a.list-group-item:hover {
   white-space: normal;
 }
 .contact-method .btn.share {
-  font-size: .9vmax;
+  font-size: 12px;
 }
 #contactform input,
 #contactform textarea {
@@ -1172,4 +1156,81 @@ footer .footer-logo {
 }
 .copyright a>i {
   color: #81674b;
+}
+
+
+/***** OVERRIDES *****/
+/* Lisa's workforce widget on careers page */
+ul.whr-items {
+  list-style-type: none;
+}
+li.whr-item>h3>a {
+  position: relative;
+  text-transform: none;
+  padding-left: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+li.whr-item>h3>a:before {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  font-family: FontAwesome;
+  content: "\f0a9";
+}
+/* Hubspot overrides */
+.hs-form label {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+  font-weight: 600 !important;
+}
+.hs-form .inputs-list label {
+  font-weight: 400 !important;
+}
+.hs-form input.hs-input, .hs-form textarea.hs-input {
+  border-radius: 0 !important;
+}
+.hs-form input.hs-input:focus, .hs-form textarea.hs-input:focus {
+  border-color: #adaaa8 !important;
+  outline: none !important;
+  border-color: none !important;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1),0 0 8px rgba(0,0,0,0.1)  !important;
+}
+.hs-form textarea.hs-input {
+  resize: vertical;
+}
+.hs-form .hs-button.primary.large {
+  background-color: #9c8061;
+  background-image: none;
+  border-radius: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 150%;
+  margin-bottom: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: none;
+  letter-spacing: .05rem;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.1);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.1);
+}
+.hs-form .hs-button:active:not(.inactive):not(.link), .hs-form .hs-button.depressed:not(.inactive):not(.link), .dropdown-open>.hs-form .hs-button:not(.inactive):not(.link), .hs-form .hs-button:hover:not(.inactive), .hs-form .hs-button:focus:not(.inactive), .hs-form .hs-button.hovered:not(.inactive) {
+  background-color: #81674b !important;
+  background-image: none !important;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.1) !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.1) !important;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.1) !important;
+  color: #fff;
+}
+.hs-form.stacked .actions {
+  margin-left: 0 !important;
+  margin-top: 0 !important;
 }

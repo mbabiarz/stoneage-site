@@ -53,31 +53,26 @@ main-contact: yes
           </div>
           <!-- E-mail Us -->
           <div class="col-sm-4 contact-method">
-            <h2><i class="fa fa-paper-plane"></i><br/>Email Us</h2>
-            <form method="post" action="http://formspree.io/margaret.babiarz@stoneagetools.com" name="contactform" id="contactform">
-              <fieldset>
-                <input name="name" type="text" id="name" class="form-control" size="30" placeholder="Name">
-                <br>
-                <input name=company type="text" id="company" class="form-control" size="30" placeholder="Company">
-                <br>
-                <input name="email" type="text" id="email" class="form-control" size="30" placeholder="Email">
-                <br>
-                <input name="phone" type="text" id="phone" class="form-control" size="30" placeholder="Phone">
-                <br>
-              </fieldset>
-              <fieldset>
-                <textarea name="comments" cols="40" rows="25" id="comments" class="form-control" placeholder="Message"></textarea>
-              </fieldset>
-              <fieldset>
-                <button type="submit" class="btn btn-lg btn-block" id="submit" value="Submit">Send Message</button>
-                <input type="hidden" name="_next" value="email-thanks.html" />
-                <input type="hidden" name="_subject" value="New web contact form submission!" />
-            </fieldset>
-          </form>
+            <h2><i class="fa fa-envelope"></i><br/>Email Us</h2>
+            <hr> 
+            <!--**** HubSpot contact form ****-->
+            <!--[if lte IE 8]>
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+            <![endif]-->
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+            <script>
+              hbspt.forms.create({
+                portalId: '1875880',
+                formId: '4ebf2c10-379c-4fc6-92f0-c8b9f82d93e7'
+              });
+            </script>
+            <!--**** End HubSpot contact form ****-->
+            
           </div> 
           <!-- Social Share-->
           <div class="col-sm-4 contact-method">
             <h2><i class="fa fa-share-alt"></i><br/>Share With us</h2>
+            <hr>
             <p><span class="thin">We welcome general questions, comments and feedback online.</span></p>
             <div class="padding-tb-30 margin-top-30 margin-bottom-30">
               <a href="https://twitter.com/stoneagetools" target="_blank" class="btn btn-block share">Tweet @Stoneagetools</a>
