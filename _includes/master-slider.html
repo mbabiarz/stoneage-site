@@ -14,4 +14,16 @@
     MasterSliderShowcase2.initMasterSliderShowcase2();
   });
 </script>
+
+<!-- Toggle Accordions -->
+<script>
+  function toggleCaret(e) {
+      $(e.target)
+          .prev('.panel-heading')
+          .find("i.indicator")
+          .toggleClass('fa-caret-down fa-caret-up');
+  }
+  $('#accordion').on('hidden.bs.collapse', toggleCaret);
+  $('#accordion').on('shown.bs.collapse', toggleCaret);
+</script>
 {% endif %}

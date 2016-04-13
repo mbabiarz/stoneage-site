@@ -670,32 +670,38 @@ a.list-group-item:hover {
   margin-bottom: 0px;
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid #dedede;
+/*  border-bottom: 1px solid #dedede;*/
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+/*
 .product .panel-default>.panel-heading {
   background: none;
   padding: 8px 0;
 }
-.product .panel-title {
+*/
+.product .panel-title, .product .panel-heading>h4>a:active, .product .panel-heading>h4>a:focus, .product .panel-heading>h4>a:hover  {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .05rem;
   color: #949494;
 }
-.product .panel-heading span.glyphicon {
+/*
+.product .panel-heading i.glyphicon {
     float: right;
-    color: #9c8061;
+    color: #585858;
 }
+*/
 .product .panel-heading>h4>a {
   display: block;
   width: 100%;
   height: 100%;
 }
+/*
 .product .panel-heading>h4>a:hover {
-  color: #9c8061;
+  color: #585858;
 }
+*/
 .product .panel-body {
   color: #585858;
 }
