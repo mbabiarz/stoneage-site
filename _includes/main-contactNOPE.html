@@ -1,10 +1,10 @@
-{% if page.houston-contact %}
+{% if page.main-contact %}
 <!--Google Maps API-->
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnycWatbGyK6ldFqErjFtko1yeMclNUOA&amp;sensor=true"></script>
 <script>
   function initialize() {
     var mapOptions = {
-      center: new google.maps.LatLng(29.680113,-95.1667929),
+      center: new google.maps.LatLng(37.1993803,-107.8716067),
       zoom: 5,
       mapTypeId: google.maps.MapTypeId.HYBRID,
       scrollwheel: false,
@@ -18,7 +18,7 @@
       rotateControl: true,
     };
     var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-    var contentString = 'StoneAge Houston &bull; 2150 Pansy St. &bull; Pasadena, TX 77503';
+    var contentString = 'StoneAge, Inc. &bull; 466 South Skylane Drive &bull; Durango, CO 81303';
     var infowindow = new google.maps.InfoWindow({
       content: contentString
     });
