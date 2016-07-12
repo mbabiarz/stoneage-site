@@ -1,0 +1,96 @@
+#appContent * {
+  font: 300 14px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+#appContent h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: .15rem;
+  line-height: 2.5rem;
+}
+#appContent h2:first-of-type {
+  margin-top:0;
+}
+#appContent p {
+  margin:0;
+  padding: 5px 0;
+}
+#appContent i {
+  font: normal normal normal 14px/1 FontAwesome;
+}
+#appContent .tab-nav {
+  display: inline-block;
+  padding: 4px 15px;
+  border-top: 3px solid #fff;
+  background: #222;
+  border-bottom: 0;
+  margin-right: 1px;
+  font-weight: 400;
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: .1px;
+}
+#appContent .tab-nav-active {
+  background-color: #ddd;
+  color: #222;
+  border-top: 3px solid #ddd;
+  border-bottom: 0;
+}
+#appContent .tab-nav:hover {
+  background-color: #484848;
+  color: #fff;
+  border-bottom: 0;
+}
+#appContent .tab-content {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+#appContent .tab-content .tab-row {
+  padding: 10px;
+  line-height: 24px;
+}
+#appContent .prev-next {
+  padding: 25px 0;
+}
+#appContent .btn {
+  font-size: 12px;
+  margin-bottom: 20px;
+  padding: 3px 10px;
+}
+#appContent .btn-gray {
+  background-color: #999;
+}
+#appContent .btn-gray:hover {
+  background-color: #666;
+}
+#appContent input, select {
+  margin-left:10px;
+  margin-right:5px;
+}
+#appContent label.even {
+  width: 80px;
+}
+#appContent label.even-120 {
+  width: 120px;
+}
+#appContent .msg-box {
+  width:100%;
+  resize:none;
+  overflow: auto;
+  min-height: 150px; 
+}
+#appContent select {
+  border-radius: 0;
+}
+#appContent .send-form {
+  margin: 0;
+  padding: 0;
+}
+#appContent .send-form .wide {
+  width: 97%;
+  margin-bottom: 5px;
+}
