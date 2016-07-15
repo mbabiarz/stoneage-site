@@ -52,12 +52,6 @@
   width: 100%;
 }
 
-/*
-.directory p:last-child{
-  margin-bottom: 0;
-}
-*/
-
 .directory .mix,
 .directory .gap{
   display: inline-block;
@@ -65,7 +59,7 @@
   padding: 2px;
 }
 
-.directory .mix{
+.directory .mix {
 /*  border: 1px solid #efefef;*/
   border-radius: 4px;
   margin-bottom: 2%;
@@ -77,6 +71,7 @@
   line-height: 1.9rem;
   padding-bottom: 5px;
 }
+
 .directory .mix h5 {
   font-family: "Helvetica Neue", arial, sans-serif;
   color: #545454;
@@ -87,6 +82,16 @@
   padding: 0 20px 10px 20px;
   margin: 0;
   text-align: center;
+}
+
+.directory .mix .table {
+  font-size: 12px;
+  color: #565656;
+  text-align: left;
+}
+.directory .mix .table th {
+  text-align: right;
+  width: 35%;
 }
 
 .directory .mix button {

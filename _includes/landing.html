@@ -6,7 +6,11 @@
 $(document).ready(function(){
   $(function(){
       // Instantiate MixItUp:
-      $('#Container').mixItUp();
+      $('#Container').mixItUp({
+        load: {
+          sort: 'myorder:asc'
+        }
+      });
   });
 })
 </script>
