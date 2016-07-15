@@ -85,10 +85,13 @@
 }
 
 .directory .mix .table {
+  width: 90%;
   font-size: 12px;
-  color: #565656;
+  color: #888;
   text-align: left;
+  margin: auto;
 }
+
 .directory .mix .table th {
   text-align: right;
   width: 35%;
