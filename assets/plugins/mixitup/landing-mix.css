@@ -4,6 +4,10 @@
   color: #eee;
 }
 
+.landing .controls input{
+  color: #585858;
+}
+
 .landing label{
   font-weight: 300;
   margin: 0 .4em 0 0;
