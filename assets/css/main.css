@@ -107,6 +107,9 @@ p.width-90 {
 .margin-bottom-30 {
   margin-bottom: 30px;
 }
+.margin-bottom-60 {
+  margin-bottom: 60px;
+}
 .margin-bottom-120 {
   margin-bottom: 120px;
 }
@@ -625,6 +628,10 @@ a.list-group-item:hover {
   text-decoration: none;
   background: none;
 }
+
+.product .tabs {
+  display: none;
+} 
 .product .panel-group .panel {
   border-radius: 0;
   margin-bottom: 0px;
@@ -668,7 +675,7 @@ a.list-group-item:hover {
 .product .panel-body ul {
   padding-left: 0;
 }
-.product .panel-body ul li {
+.product .panel-body ul li, ul.feature-list li {
   list-style: none;
   padding: 8px 0;
   border-bottom: 1px dotted #eee;

@@ -8,6 +8,7 @@
 <script src="/assets/plugins/masterslider/jquery.easing.min.js"></script>
 <script src="/assets/js/master-slider.js"></script>
 
+
 <!-- Initialize Master Slider -->
 <script>
   jQuery(document).ready(function() {    
@@ -26,4 +27,18 @@
   $('#accordion').on('hidden.bs.collapse', toggleCaret);
   $('#accordion').on('shown.bs.collapse', toggleCaret);
 </script>
+
+<!-- Horizontal tabs -->
+<link rel="stylesheet" href="/assets/css/tabs.css">
+<script src="/assets/js/cbpFWTabs.js"></script>
+<script>
+    (function() {
+
+        [].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+            new CBPFWTabs( el );
+        });
+
+    })();
+</script>
+
 {% endif %}

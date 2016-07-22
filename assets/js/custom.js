@@ -19,6 +19,8 @@ $(document).ready(function(){
     window.location.hash = hash;
     });
   });
+  
+  $(".tabs").fadeIn(2000);
 })
 
 //***** Smooth page to Rotary *****//
@@ -114,4 +116,3 @@ window.onload = function() {
     }
   });
 }
-
