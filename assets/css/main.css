@@ -514,6 +514,14 @@ aside.cta a {
 }
 
 /* Landing Pages */
+.landing-nav {
+    /* background-color: #e2e2e2; */
+    background-color: #d9d5d2;
+    border-bottom: 3px solid #fff;
+}
+.landing .header {
+  background-color: #d9d5d2;
+}
 .landing .header h1 {
   font-weight: 300;
   text-transform: uppercase;
