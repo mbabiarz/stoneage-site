@@ -74,8 +74,8 @@
 	font-size: 0.75em;
 }
 
-.tabs nav li.tab-current a {
-	color: #767676;
+.tabs nav li.tab-current a span {
+	color: #444;
 }
 
 .tabs nav a:focus {
@@ -149,7 +149,7 @@
 	margin: 0 auto;
 	padding: 2em;
 	max-width: 1200px;
-	text-align: center;
+/*	text-align: center;*/
     font-size: 14px;
 }
 
@@ -158,12 +158,12 @@
 }
 
 .content-wrap section p {
-	margin: 0;
-	padding: 0.75em 0;
-	color: rgba(0, 0, 0, 0.2);
-	font-weight: 900;
-	font-size: 4em;
-	line-height: 1;
+    font-weight: 300;
+}
+
+.content-wrap section p.caption {
+	padding-top: 10px;
+    color: #888;
 }
 
 /* Fallback */
@@ -227,7 +227,7 @@
 .tabs-style-linetriangle nav li.tab-current a:after {
 	margin-left: -10px;
 	border-width: 10px;
-	border-top-color: white;
+	border-top-color: rgba(0,0,0,0.2);
 }
 
 .tabs-style-linetriangle nav li.tab-current a:before {
