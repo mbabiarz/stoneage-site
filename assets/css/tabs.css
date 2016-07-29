@@ -58,6 +58,8 @@
 	-moz-flex: 1;
 	-ms-flex: 1;
 	flex: 1;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
 }
 
 .tabs nav a {
@@ -166,6 +168,38 @@
     color: #888;
 }
 
+.content-wrap section .panel-group .panel {
+    border-radius: 0; 
+    border: none;
+}
+
+.content-wrap section .panel-default>.panel-heading {
+    background-color: #fff; 
+    color: #444;
+}
+
+.content-wrap section .panel-title {
+    font-size: 14px;
+}
+
+.content-wrap section .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 0;
+}
+
+.content-wrap section .panel {
+     -webkit-box-shadow: none; 
+     box-shadow: none; 
+}
+
+.content-wrap section .panel-default>.panel-heading {
+    border-bottom: 1px solid #eee;
+}
+
+.content-wrap section .panel-title>a:hover, .content-wrap section .panel-title>a:active, .content-wrap section .panel-title>a:focus {
+  color: #444;
+}
+
+  
 /* Fallback */
 .no-js .content-wrap section {
 	display: block;
