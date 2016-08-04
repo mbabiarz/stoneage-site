@@ -21,6 +21,11 @@ $(document).ready(function(){
   });
   
   $(".tabs").fadeIn(2000);
+  
+  // Tool tips
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  });
 })
 
 //***** Smooth page to Rotary *****//
