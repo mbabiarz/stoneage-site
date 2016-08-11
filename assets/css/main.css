@@ -805,7 +805,10 @@ a.list-group-item:hover {
   padding-left: 30px;
   border-bottom: 0;
 }
-.contact .nav-tabs>li>a {
+.manuals .nav-tabs {
+  border-bottom: 0;
+}
+.contact .nav-tabs>li>a, .manuals .nav-tabs>li>a {
   border-radius: 0;
   text-transform:uppercase;
   border: 1px solid #ddd;
@@ -818,8 +821,11 @@ a.list-group-item:hover {
   border: 1px solid #ddd;
   border-bottom-color: transparent;
 }
-.contact .nav>li>a:focus, .contact .nav>li>a:hover {
+.contact .nav>li>a:focus, .contact .nav>li>a:hover, .manuals .nav>li>a:hover  {
   background: none;
+}
+.manuals .nav>li>a:focus {
+  background: #fff;
 }
 .contact .tab-content {
   background-color: #f2f2f2; 

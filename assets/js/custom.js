@@ -77,13 +77,19 @@ $(document).ready(function(){
   (function ($) {
 
           $('#filter').keyup(function () {
-
               var rex = new RegExp($(this).val(), 'i');
               $('.searchable tr').hide();
               $('.searchable tr').filter(function () {
                   return rex.test($(this).text());
               }).show();
-
+          })
+          
+          $('#filter-2').keyup(function () {
+              var rex = new RegExp($(this).val(), 'i');
+              $('.searchable-2 tr').hide();
+              $('.searchable-2 tr').filter(function () {
+                  return rex.test($(this).text());
+              }).show();
           })
 
       }(jQuery));
