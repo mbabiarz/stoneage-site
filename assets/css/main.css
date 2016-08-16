@@ -110,6 +110,10 @@ p.width-90 {
 .margin-bottom-120 {
   margin-bottom: 120px;
 }
+.no-margin {
+  margin: 0;
+  padding: 0;
+}
 .bg-lt-grey {
     background-color: #f2f2f2;
 }
@@ -1078,7 +1082,37 @@ ul.job-listings>li {
 .safety-callout h2 {
   font-weight: 800;
 }
-
+.rental-product {
+  padding: 30px;
+}
+.rental-product h3 {
+  line-height: 1.9rem;
+}
+.rental-product a h5 {
+  font-family: "Helvetica Neue", arial, sans-serif;
+  color: #545454;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  padding: 0 20px 10px 20px;
+  margin: 0;
+  text-align: center;
+}
+.rental-product a>button {
+  display: block;
+  width: 90%;
+  border-radius: 0;
+  margin: 0 auto 10px auto;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .05rem;
+  font-weight: 400;
+  font-size: 12px;
+}
+.rental-product a:hover>button {
+  background-color: #81674b;
+}
 
 /* Footers */
 .footer-cta {
