@@ -293,8 +293,14 @@ ul.basic li {
   padding-right: 2px;
 }
 .main-nav {
-   border-bottom: 3px solid #fff; 
+   border-bottom: 4px solid #fff; 
 /*  box-shadow: 0 0 6px rgba(0,0,0,.2);*/
+}
+.main-nav .navbar-nav>li {
+  border-right: 4px solid #fff;
+}
+.main-nav .navbar-nav>li:first-child {
+  border-left: 4px solid #fff;
 }
 .navbar-brand {
     height: 64px;
@@ -545,7 +551,7 @@ aside.cta a {
 }
 .landing .heading {
   padding: 10px;
-  border-top: 3px solid #fff;
+/*  border-top: 3px solid #fff;*/
 }
 .list-group-item.header, .list-group-item.header:active, .list-group-item.header:hover {
   font-family: 'Roboto Slab', 'Lato', sans-serif;
