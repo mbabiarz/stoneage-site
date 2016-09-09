@@ -1,6 +1,6 @@
 {% if page.contact-main %}
-<!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnycWatbGyK6ldFqErjFtko1yeMclNUOA&amp;sensor=true"></script>-->
-<script>
+<script>  
+  //** Map handling **//
   jQuery(function($) {
       // Asynchronously Load the map API 
       var script = document.createElement('script');
@@ -66,5 +66,21 @@
         google.maps.event.removeListener(boundsListener);
     });
   }
+  
+  
+  //***** Make Dealer tabs linkable *****//
+//  $(function () {
+//    if(window.location.hash != "") {
+//      $('a[href="' + window.location.hash + '"]').click()
+//    }
+//  });
+  
+  $(function () {
+     var activeTab = $('[href=' + location.hash + ']');
+     activeTab && activeTab.tab('show');
+     window.location = "#top";
+  });
+  
+  
 </script>
 {% endif %}

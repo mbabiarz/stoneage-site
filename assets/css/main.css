@@ -42,7 +42,31 @@ p {
   letter-spacing: .02rem;
   padding-bottom: 10px
 }
-p.width-90 {
+.bold {
+  font-weight: 700;
+}
+.thin {
+  font-weight: 300;
+}
+.grey {
+  color: #888;
+}
+.spaced {
+  letter-spacing: .1rem;
+}
+.metric {
+  color: #888;
+}
+.slab {
+  font-family: 'Roboto Slab';
+}
+.small {
+  font-size:75%;
+}
+.large {
+  font-size: 125%;
+}
+.width-90 {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -57,18 +81,6 @@ p.width-90 {
   margin-left: auto;
   margin-right: auto;
 }
-.bold {
-  font-weight: 700;
-}
-.thin {
-  font-weight: 300;
-}
-.grey {
-  color: #888;
-}
-.spaced {
-  letter-spacing: .1rem;
-}
 .padding-30 {
   padding: 30px;
 }
@@ -79,15 +91,15 @@ p.width-90 {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.padding-tb-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .padding-left-30 {
   padding-left: 30px;
 }
 .padding-right-30 {
   padding-right: 30px;
-}
-.padding-tb-60 {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 .padding-right-60 {
   padding-right: 60px;
@@ -112,6 +124,10 @@ p.width-90 {
 }
 .margin-bottom-120 {
   margin-bottom: 120px;
+}
+.no-margin {
+  margin: 0;
+  padding: 0;
 }
 .bg-lt-grey {
     background-color: #f2f2f2;
@@ -185,12 +201,6 @@ p.width-90 {
 .to-top i {
   position: relative;
   top:-3px;
-}
-.metric {
-  color: #888;
-}
-.slab {
-  font-family: 'Roboto Slab';
 }
 .align-left {
   text-align: left;
@@ -858,15 +868,15 @@ a.list-group-item:hover {
   letter-spacing: .15rem;
   margin-bottom: 30px;
 }
-.contact-method h2 i {
-  color: #ccc;
-}
 .contact-method h3 {
   font-family: 'Roboto Slab', 'Lato', sans-serif;
   font-size: 14px;
   line-height: 140%;
   font-weight: 800;
   letter-spacing: .15rem;
+}
+.contact-method i {
+  color: #ccc;
 }
 .contact-method a {
   cursor: pointer;
@@ -1062,7 +1072,34 @@ ul.job-listings>li {
 .safety-callout h2 {
   font-weight: 800;
 }
-
+.rental-questions .panel {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.rental-questions .panel-default {
+  border: none;
+}
+.rental-questions .panel-default>.panel-heading {
+  color: #484848;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 4px;
+}
+.rental-questions .panel-title {
+  font-size: 18px;
+  font-weight: 800;
+}
+.rental-questions .panel-title a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10px;
+}
+.rental-questions .panel-group .panel-heading+.panel-collapse>.panel-body {
+  border-top: none;
+  border-bottom: 1px solid #efefef;
+}
 
 /* Footers */
 .footer-cta {
