@@ -303,14 +303,14 @@ ul.basic li {
   padding-right: 2px;
 }
 .main-nav {
-   border-bottom: 4px solid #fff; 
+   border-bottom: 3px solid #fff; 
 /*  box-shadow: 0 0 6px rgba(0,0,0,.2);*/
 }
 .main-nav .navbar-nav>li {
-  border-right: 4px solid #fff;
+  border-right: 3px solid #fff;
 }
-.main-nav .navbar-nav>li:first-child {
-  border-left: 4px solid #fff;
+.main-nav .navbar-nav>li:last-child {
+  border-right: none;
 }
 .navbar-brand {
     height: 64px;
@@ -801,6 +801,19 @@ a.list-group-item:hover {
   float: right;
   margin-bottom: 0;
   font-size: 12px;
+}
+.promo-tag.rect {
+  position: relative;
+  display: inline
+  height: 100px; 
+  width: 200px; 
+  background: red;
+}
+.promo-tag.tri { 
+  border-top: 100px solid #428BCA; 
+  border-left: 100px solid #428BCA; 
+  border-right: 100px solid transparent; 
+  border-bottom: 100px solid transparent;   
 }
 
 /* Contact Page */
