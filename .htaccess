@@ -1,0 +1,5 @@
+# turn off directory browsing
+IndexIgnore *
+
+# show custom error pages for these HTTP statuses
+ErrorDocument 404 /404.html
