@@ -3,3 +3,5 @@ IndexIgnore *
 
 # show custom error pages for these HTTP statuses
 ErrorDocument 404 /404.html
+
+Redirect 301 /prodrive /abx-pro
