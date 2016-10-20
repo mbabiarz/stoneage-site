@@ -293,14 +293,16 @@
 
 .tabs-style-bar nav ul li a {
 	margin: 0 1.5px;
-	background-color: #F2F2F3;
+/*	background-color: #F2F2F3;*/
+  background-color: #dedede;
 	color: #74777b;
 	transition: background-color 0.2s, color 0.2s;
 }
 
 .tabs-style-bar nav ul li a:hover,
 .tabs-style-bar nav ul li a:focus {
-	color: #9c8061;
+/*	color: #9c8061;*/
+  color: #444;
 }
 
 .tabs-style-bar nav ul li a span {
@@ -311,7 +313,8 @@
 }
 
 .tabs-style-bar nav li.tab-current a {
-	background: #d9d5d2;
+/*	background: #d9d5d2;*/
+  background-color: #b4b2b0;
 	color: #fff;
 }
 
@@ -330,7 +333,8 @@
 .tabs-style-bar nav ul li.tab-current:after {
 	margin-left: -10px;
 	border-width: 10px;
-	border-top-color: #d9d5d2;
+/*	border-top-color: #d9d5d2;*/
+  border-top-color: #b4b2b0;
 }
 
 .tabs-style-bar nav ul li.tab-current:before {
