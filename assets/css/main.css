@@ -228,6 +228,13 @@ h2.whr-group {
   font-size: 16px;
   color: #888;
 }
+.promo-heading {
+  font-size: 120%;
+  background: url(/assets/img/yellow-tab.jpg) top left no-repeat;
+  line-height: 28px;
+  font-weight: 800;
+  padding: 4px 0 0 50px;
+}
 
 /* Header & Navigation */
 .navbar .utilities {
