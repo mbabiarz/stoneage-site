@@ -70,7 +70,7 @@
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-	line-height: 2.5;
+	line-height: 3.5;
 }
 
 .tabs nav a span {
@@ -236,7 +236,7 @@
 	overflow: visible;
 	border-top: 1px dotted rgba(0,0,0,0.2);
 	border-bottom: 1px dotted rgba(0,0,0,0.2);
-	-webkit-transition: color 0.2s;
+	-webkit-transition: color 0.1s;
 	transition: color 0.2s;
 }
 
@@ -296,7 +296,7 @@
 /*	background-color: #F2F2F3;*/
   background-color: #dedede;
 	color: #74777b;
-	transition: background-color 0.2s, color 0.2s;
+/*	transition: background-color 0.2s, color 0.2s;*/
 }
 
 .tabs-style-bar nav ul li a:hover,

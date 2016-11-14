@@ -316,8 +316,8 @@ ul.basic li {
 .main-nav .navbar-nav>li {
   border-right: 3px solid #fff;
 }
-.main-nav .navbar-nav>li:last-child {
-  border-right: none;
+.main-nav .navbar-nav>li:first-child {
+  border-left: 3px solid #fff;
 }
 .navbar-brand {
     height: 64px;
