@@ -127,3 +127,9 @@ window.onload = function() {
     }
   });
 }
+
+
+//-- Tipue Search --//
+$(document).ready(function() {
+   $('#tipue_search_input').tipuesearch();
+});
