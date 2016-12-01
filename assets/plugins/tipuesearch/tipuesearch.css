@@ -9,10 +9,10 @@ http://www.tipue.com/search
 
 #tipue_search_input
 {
-     font: 13px/1.6 'open sans', sans-serif;
+    font: 13px/1.6;
 	color: #333;
 	padding: 12px 12px 12px 40px;
-	width: 170px;
+	width: 420px;
 	border: 1px solid #e2e2e2;
 	border-radius: 0;
 	-moz-appearance: none;
@@ -143,8 +143,6 @@ http://www.tipue.com/search
 
 
 /* spinner */
-
-
 .tipue_search_spinner
 {
      padding: 31px 0;
@@ -197,7 +195,23 @@ http://www.tipue.com/search
 }
 
 
+/* Animated search
+#wrap input[type=text] {
+    width: 15px;
+    box-sizing: border-box;
+    display: inline-block;
+    padding-right: 42px;
+    background: none;
+    border: none;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyppVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTMyIDc5LjE1OTI4NCwgMjAxNi8wNC8xOS0xMzoxMzo0MCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUuNSAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowMTZCNzY0Q0FGNzcxMUU2QjI0MThCNTRFNUI2NTVEQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDowMTZCNzY0REFGNzcxMUU2QjI0MThCNTRFNUI2NTVEQyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjAxNkI3NjRBQUY3NzExRTZCMjQxOEI1NEU1QjY1NURDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjAxNkI3NjRCQUY3NzExRTZCMjQxOEI1NEU1QjY1NURDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+lfT/ZQAAALlJREFUeNqM0SEOwkAQBdApqVoDtpKkgjtUch2QpGfAYHE9A0GTSg6AASypIBiqG5LhF35hGTaBSZ6Z3b/ZnRVVFUiggFqfdYAJRFx/6Taf4ApzmMKKwWUoUHBzahZzhjIbqHmyGDFcYOH3eyLSh0q+6wZnGPjNNnCEcSCQwAj2H11OQ3nn2Jvalv2hfUPEaSjvvING31WC8wOdjA9spzbjyaUNSWA6PmdDvwI2tHl8/R/lYA3pXYABABQZb73dmVIsAAAAAElFTkSuQmCC') top right no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    cursor: pointer;
+}
 
-
-
-
+#wrap input[type=text]:focus {
+    width: 100%;
+    outline: none;
+    border-bottom: 1px solid #BBB;
+}
+ */
