@@ -33,10 +33,13 @@ landing: yes
       <button class="filter" data-filter=".hydro-demo">Concrete</button>
       <button class="filter" data-filter=".accessories">Swivels</button>
       <button class="filter" data-filter=".accessories">Accessories</button>
+      <a href="#" data-featherlight="#search-box"><img src="/assets/img/icon_search_lg.png" alt="Search" style="width:20px; margin-left:15px;" /></a>
       
-      <form action="search">
-        <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
-      </form>
+      <div class="lightbox" id="search-box">
+        <form action="search">
+          <input type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="What are we looking for?">
+        </form>
+      </div>
 
 <!--
       <label>Sort:</label>

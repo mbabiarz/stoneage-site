@@ -37,7 +37,7 @@ http://www.tipue.com/search
 }
 #tipue_search_warning a
 {
-     color: #396;
+/*     color: #396;*/
      text-decoration: none;
 }
 #tipue_search_warning a:hover
@@ -71,13 +71,15 @@ http://www.tipue.com/search
 }
 .tipue_search_content_url a
 {
-     color: #396;
+/*     color: #396;*/
      text-decoration: none;
 }
+/*
 .tipue_search_content_url a:hover
 {
      color: #555;   
 }
+*/
 .tipue_search_content_text
 {
      font: 300 15px/1.6 'Open Sans', sans-serif;
