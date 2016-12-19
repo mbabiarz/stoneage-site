@@ -8,7 +8,8 @@
         </div>
         <ul class="list-unstyled link-list">
           <li><a href="/product-catalogs">Product Catalogs</a><i class="fa fa-angle-right"></i></li>
-          <li><a href="/technical-reference">Technical Reference</a><i class="fa fa-angle-right"></i></li>
+          <li><a href="/manuals">Product Manuals</a><i class="fa fa-angle-right"></i>
+          <li><a href="http://news.stoneagetools.com/topic/product-bulletins">Product Bulletins</a><i class="fa fa-angle-right"></i>
           <li><a href="/service">Service &amp; Repairs</a><i class="fa fa-angle-right"></i></li>
           <li><a href="/safety">Safety Information</a><i class="fa fa-angle-right"></i></li>
           <li><a href="/custom-solutions">Custom Solutions</a><i class="fa fa-angle-right"></i></li>
@@ -23,7 +24,7 @@
         <ul class="list-unstyled link-list">
           <li><a href="/about">Our Story</a><i class="fa fa-angle-right"></i></li>
           <li><a href="/jobs">Careers</a><i class="fa fa-angle-right"></i></li>
-          <li><a href="/news">News</a><i class="fa fa-angle-right"></i></li>
+          <li><a href="http://news.stoneagetools.com">News</a><i class="fa fa-angle-right"></i></li>
           <li><a href="/contact">Contact</a><i class="fa fa-angle-right"></i></li>
         </ul>
       </div>
@@ -63,10 +64,18 @@
   <!-- End Footer -->
 
 
-  <!-- Scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!--*** Scripts ***-->
+<!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="/assets/plugins/featherlight/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+<!--<script src="//cdn.rawgit.com/noelboss/featherlight/1.6.1/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>-->
+
+  <!-- Tipue Search -->
+  <script src="/assets/plugins/tipuesearch/tipuesearch_content.js"></script>
+  <script src="/assets/plugins/tipuesearch/tipuesearch_set.js"></script>
+  <script src="/assets/plugins/tipuesearch/tipuesearch.min.js"></script>
+  <!-- StoneAge custom functionality -->
   <script src="/assets/js/custom.js"></script>
   
   <!-- product slider script dependencies -->
@@ -78,6 +87,11 @@
   {% include contact-houston.html %}
   {% include contact-ohio.html %}
   {% include contact-la.html %}
+
+  <!-- landing page script dependencies -->
+  {% include landing.html %}
+
+  <!-- configurator TEST dependencies -->
   {% include config-bjv-includes.html %}
   {% include config-nav-includes.html %}
   

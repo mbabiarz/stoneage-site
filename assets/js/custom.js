@@ -19,6 +19,13 @@ $(document).ready(function(){
     window.location.hash = hash;
     });
   });
+  
+  $(".tabs").fadeIn(2000);
+  
+  // Tool tips
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  });
 })
 
 //***** Smooth page to Rotary *****//
@@ -70,13 +77,19 @@ $(document).ready(function(){
   (function ($) {
 
           $('#filter').keyup(function () {
-
               var rex = new RegExp($(this).val(), 'i');
               $('.searchable tr').hide();
               $('.searchable tr').filter(function () {
                   return rex.test($(this).text());
               }).show();
-
+          })
+          
+          $('#filter-2').keyup(function () {
+              var rex = new RegExp($(this).val(), 'i');
+              $('.searchable-2 tr').hide();
+              $('.searchable-2 tr').filter(function () {
+                  return rex.test($(this).text());
+              }).show();
           })
 
       }(jQuery));
@@ -115,3 +128,8 @@ window.onload = function() {
   });
 }
 
+
+//-- Tipue Search --//
+$(document).ready(function() {
+   $('#tipue_search_input').tipuesearch();
+})

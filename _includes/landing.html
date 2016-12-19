@@ -1,0 +1,19 @@
+{% if page.landing %}
+<!-- MixItUp -->
+<link href="/assets/plugins/mixitup/landing-mix.css" type="text/css" rel="stylesheet" />
+
+<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(function(){
+      // Instantiate MixItUp:
+      $('#Container').mixItUp({
+        load: {
+          sort: 'name:asc'
+        }
+      });
+  });
+})
+</script>
+
+{% endif %}
