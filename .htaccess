@@ -5,3 +5,5 @@ IndexIgnore *
 ErrorDocument 404 /404.html
 
 Redirect 301 /prodrive /abx-pro
+Redirect 301 /terms-and-conditions /terms
+Redirect 301 /autopack-pro http://info.stoneagetools.com/autopack-pro
