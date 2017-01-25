@@ -505,7 +505,7 @@ aside.cta a {
 .home-news li h4 {
   font-size: 16px;
 }
-.home-news small {
+.home-news .small {
   color: #888;
   font-style: italic;
   font-weight: 300;
