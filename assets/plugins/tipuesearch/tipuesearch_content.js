@@ -83,6 +83,40 @@ var tipuesearch = {"pages": [
   {"title": "Warthog WHR Magnum", "text": "The Warthog WHR Magnum is designed for mid-size pipes and lines, with the proven power and durability of the Magnum line of sewer tools.", "tags": "3/4 inlet", "url": "/whr-magnum"},
   {"title": "Warthog WS-1/2", "text": "The Warthog WS-1/2 is designed to handle 4”-8” lines and is most commonly used with trailer jetters.", "tags": "1/2 inlet, classic", "url": "/ws"},
   {"title": "Warthog WT-3/8-C", "text": "The WT-3/8-C can negotiate elbows and clean-outs commonly found in laterals in homes, buildings, restaurants and other light commercial facilities.", "tags": "3/8 inlet, classic", "url": "/wt"},
-  {"title": "Warthog WV-1/4", "text": "The WV-1/4 cleans lines as small as 2” with long sweeping elbows with no high pressure seals or bearings to service.", "tags": "1/4 inlet, classic", "url": "/wv"}
+  {"title": "Warthog WV-1/4", "text": "The WV-1/4 cleans lines as small as 2” with long sweeping elbows with no high pressure seals or bearings to service.", "tags": "1/4 inlet, classic", "url": "/wv"},
+  
+  // Downhole
+  {"title": "SpinCat downhole tools", "text": "Durable self-rotating nozzles for well service applications, SpinCat tools cut through parafin, asphaltine, hydrates, calcium carbonate, barium sulphate or mineral scale with ease.", "tags": "SC-168, SC-212, SC-250, SC-287, oil, gas O&G", "url": "/downhole-tools"},
+  {"title": "SpinCat SC-168", "text": "The Spincat SC-168 can be used at operating pressures of 1000 to 5000 psi and flow rates of .7 to 1.33 bpm (30 to 56 gpm).", "tags": "AMMT", "url": "/sc-168"},
+  {"title": "Spincat SC-212", "text": "The Spincat SC-212 can be used at operating pressures of 1000 to 5000 psi and flow rates of 0.8 to 2 bpm (32 to 80 gpm).", "tags": "AMMT", "url": "/sc-212"},
+  {"title": "Spincat SC-250", "text": "The Spincat SC-250 can be used at operating pressures of 1000 to 5000 psi and flow rates of 0.7 to 3 bpm (30 to 120 gpm).", "tags": "AMMT", "url": "/sc-250"},
+  {"title": "Spincat SC-287", "text": "The Spincat SC-287 can be used at operating pressures of 1000 to 5000 psi and flow rates of 1 to 3 bpm (40 to 120 gpm).", "tags": "AMMT", "url": "/sc-287"},
+  
+  // General
+  {"title": "Jobs at StoneAge", "text": "Explore career and interniship options with the StoneAge Human Resources (HR) portal.", "tags": "working at StoneAge, apply, application", "url": "/jobs"},
+  {"title": "Contact StoneAge", "text": "Contact and location information, sales and dealer information, support information for StoneAge high pressure waterblasting, sewer jetting, and downhole cleaning equipment.", "tags": "dealers", "url": "/contact"},
+  {"title": "Custom Solutions", "text": "Custom engineered waterblasting solutions for your most challening jobs.", "tags": "dealers", "url": "/custom-solutions"},
+  {"title": "StoneAge Durango", "text": "StoneAge Waterblast Tools headquartered in Durango, CO", "tags": "Colorado", "url": "/durango-headquarters"},
+  {"title": "StoneAge Houston", "text": "StoneAge Waterblast Tools sales, service and rentals in Pasadena, TX.", "tags": "Texas, gulf coast", "url": "/houston"},
+  {"title": "StoneAge Louisiana", "text": "StoneAge Waterblast Tools sales, service and rentals in Geismar, LA.", "tags": "southern, gulf coast", "url": "/louisiana"},
+  {"title": "StoneAge Ohio", "text": "StoneAge Waterblast Tools sales, service and rentals in North Royalton, OH.", "tags": "Cleveland, midwest", "url": "/ohio"},
+  {"title": "Tool Manuals", "text": "Directory of StoneAge current and discontinued product documentation including manuals, Tool Talks, data sheets, and notices.", "tags": "guide, obsolete", "url": "/manuals"},
+  {"title": "StoneAge News", "text": "Your source for news, updates, product bulletins, service notices, company announcements, press releases, and media info.", "tags": "blog", "url": "http://news.stoneagetools.com/"},
+  {"title": "Product Catalogs", "text": "StoneAge Waterblast and Sewer Product Catalogs", "tags": "tool", "url": "/product-catalogs"},
+  {"title": "StoneAge Rentals", "text": "Rent StoneAge Waterblast Tools and Automated Equipment", "tags": "agreement, policy, fleet", "url": "/rentals"},
+  {"title": "Request Product Catalogs", "text": "StoneAge Waterblast and Sewer Product Catalog Request", "tags": "tools", "url": "/request-catalog"},
+  {"title": "Exchanger Cleaning", "text": "High pressure tools and equipment for exchanger and tube cleaning", "tags": "", "url": "/exchanger-cleaning-applications"},
+  {"title": "Furnace and Boiler Cleaning", "text": "High pressure tools and equipment for furnace and boiler cleaning", "tags": "", "url": "/furnace-boiler-cleaning-applications"},
+  {"title": "Pipe Cleaning", "text": "High pressure tools and equipment for pipe cleaning", "tags": "", "url": "/pipe-boiler-cleaning-applications"},
+  {"title": "Surface Cleaning and Preparation", "text": "High pressure tools and equipment for surface cleaning and preparation", "tags": "", "url": "/surface-cleaning-applications"},
+  {"title": "Tank and Vessel Cleaning", "text": "High pressure tools and equipment for tank and vessel cleaning", "tags": "", "url": "/tank-vessel-cleaning-applications"},
+  {"title": "Safety Data Sheets (SDS)", "text": "Material Safety Data Sheets (SDSs) to communicate the hazards of hazardous chemical products.", "tags": "msds", "url": "/sds"},
+  {"title": "Service, Repairs and Returns", "text": "StoneAge Waterblast Tool Service Information", "tags": "support, RMA", "url": "/service"},
+  {"title": "Patents", "text": "StoneAge Product Patent Information", "tags": "", "url": "/patents"},
+  {"title": "Terms and Conditions of Sale", "text": "", "tags": "purchase, payment", "url": "/terms"},
+  {"title": "StoneAge Patents", "text": "StoneAge Product Patent Information", "tags": "", "url": "/patents"},
+  {"title": "StoneAge Trademark Information", "text": "List of StoneAge trademarks and service marks", "tags": "registrered, tm", "url": "/trademarks"},
+  {"title": "StoneAge Limited Warranty", "text": "", "tags": "exclusion, coverage", "url": "/warranty"}
+  
   
 ]};
