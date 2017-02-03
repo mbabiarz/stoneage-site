@@ -5,3 +5,4 @@ IndexIgnore *
 ErrorDocument 404 /404.html
 
 Redirect 301 /prodrive /abx-pro
+Redirect 301 /hydro-x /rotary-hydro-x
