@@ -1,13 +1,20 @@
 {% if page.master-slider %}
-<!-- Plugin Styles -->
-<link rel="stylesheet" href="../assets/plugins/masterslider/style/masterslider.css">
-<link rel='stylesheet' href="../assets/plugins/masterslider/skins/default/style.css">
+<!--=== Plugin Styles ===-->
+<link rel="stylesheet" href="/assets/plugins/masterslider/style/masterslider.css">
+<link rel='stylesheet' href="/assets/plugins/masterslider/skins/default/style.css">
+<link rel='stylesheet' href="/assets/plugins/masterslider/skins/light-2/style.css">
 
 <!-- Master Slider -->
 <script src="/assets/plugins/masterslider/masterslider.min.js"></script>
 <script src="/assets/plugins/masterslider/jquery.easing.min.js"></script>
 <script src="/assets/js/master-slider.js"></script>
 
+<!-- Owl -->
+<link href="/assets/plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+<link href="/assets/plugins/owl-carousel/owl.theme.css" rel="stylesheet">
+
+
+<!--=== Plugin Scripts ===-->
 <!-- Initialize Master Slider -->
 <script>
   jQuery(document).ready(function() {    
@@ -26,7 +33,54 @@
   $('#accordion').on('hidden.bs.collapse', toggleCaret);
   $('#accordion').on('shown.bs.collapse', toggleCaret);
 </script>
-{% endif %}
+
+<!-- Horizontal tabs -->
+<link rel="stylesheet" href="/assets/css/tabs.css">
+<script src="/assets/js/cbpFWTabs.js"></script>
+<script>
+    (function() {
+
+        [].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+            new CBPFWTabs( el );
+        });
+
+    })();
+</script>
+
+<!-- Owl carousel -->
+<script src="/assets/plugins/owl-carousel/owl.carousel.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+ 
+  var owl = $("#owl-related");
+ 
+  owl.owlCarousel({
+      items : 5, //10 items above 1000px browser width
+      itemsDesktop : [1000,5], //5 items between 1000px and 901px
+      itemsDesktopSmall : [900,3], // betweem 900px and 601px
+      itemsTablet: [600,1], //2 items between 600 and 0
+      itemsMobile : false, // itemsMobile disabled - inherit from itemsTablet option
+      slideSpeed : 1000,
+      autoPlay : true
+  });
+ 
+  // Custom Navigation Events
+  $(".next").click(function(){
+    owl.trigger('owl.next');
+  })
+  $(".prev").click(function(){
+    owl.trigger('owl.prev');
+  })
+  $(".play").click(function(){
+    owl.trigger('owl.play',1000); //owl.play event accept autoPlay speed as second parameter
+  })
+  $(".stop").click(function(){
+    owl.trigger('owl.stop');
+  })
+ 
+});
+</script>
 
 <!-- Bootstrap tooltips -->
 <script>
@@ -34,3 +88,4 @@ $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();   
 });
 </script>
+{% endif %}

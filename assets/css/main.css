@@ -235,9 +235,17 @@ h2.whr-group {
   font-weight: 800;
   padding: 4px 0 0 50px;
 }
+.aside-box {
+  background: #eee;
+  padding: 0 20px 20px;
+  border-radius: 4px;
+}
+.aside-box h3 {
+  border-bottom: 1px dotted #ddd;
+  padding-bottom:4px;
+}
 .accessories {
   margin-bottom: 30px;
-  text-align: right;
 }
 .accessories h3 {
   display: inline-block;
@@ -597,17 +605,26 @@ aside.cta a {
   transition-duration: 0.4s;
   transition-timing-function: ease-out;
 }
+.landing .header {
+  background: #d9d5d2;
+  padding: 6px;
+}
 .landing .header h1 {
   font-weight: 300;
   text-transform: uppercase;
   font-size: 52px;
+  text-align: center;
+  margin: 0;
+}
+.landing .header h3 {
+  text-align: center;
+  margin: 0;
 }
 .landing .section-header.header {
   padding: 15px 0;
 }
-.landing .header h1 {
+.directory .mix {
   text-align: center;
-  margin: 0;
 }
 .list-group-item.header, .list-group-item.header:active, .list-group-item.header:hover {
   font-family: 'Roboto Slab', 'Lato', sans-serif;
@@ -706,6 +723,14 @@ a.list-group-item:hover {
   text-decoration: none;
   background: none;
 }
+.product ul.feature-list {
+  padding-left: 0;
+}
+.product ul.feature-list li {
+  list-style: none;
+  padding: 6px 12px;
+  border-bottom: 1px dotted #eee;
+}
 .product .panel-group .panel {
   border-radius: 0;
   margin-bottom: 0px;
@@ -721,38 +746,46 @@ a.list-group-item:hover {
   padding: 8px 0;
 }
 */
+/*
 .product .panel-title, .product .panel-heading>h4>a:active, .product .panel-heading>h4>a:focus, .product .panel-heading>h4>a:hover  {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .05rem;
   color: #949494;
 }
+*/
 /*
 .product .panel-heading i.glyphicon {
     float: right;
     color: #585858;
 }
 */
+/*
 .product .panel-heading>h4>a {
   display: block;
   width: 100%;
   height: 100%;
 }
+*/
 /*
 .product .panel-heading>h4>a:hover {
   color: #585858;
 }
 */
+/*
 .product .panel-body {
   color: #585858;
 }
+*/
 .product .panel-body ul {
   padding-left: 0;
 }
 .product .panel-body ul li {
   list-style: none;
+/*
   padding: 8px 0;
   border-bottom: 1px dotted #eee;
+*/
 }
 .product .panel-body ul.nav-tabs li {
   padding: 0;
