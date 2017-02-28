@@ -1090,7 +1090,7 @@ a.list-group-item:hover {
   border-right: 0;
 }
 
-/* Right Sidebar pages */
+/* Right Sidebar pages, etc. */
 aside.right-sidebar ul>li {
   padding: 8px;
   border-bottom: 1px dotted #eee;
@@ -1179,6 +1179,9 @@ ul.job-listings>li {
 .rental-questions .panel-group .panel-heading+.panel-collapse>.panel-body {
   border-top: none;
   border-bottom: 1px solid #efefef;
+}
+.manuals .nav-tabs {
+  border-bottom: 0;
 }
 
 /* Footers */
