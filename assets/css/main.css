@@ -892,7 +892,7 @@ a.list-group-item:hover {
 /* Contact Page */
 #main-map-canvas {
   width: 100%;
-  height: 400px;
+  height: 420px;
   margin-bottom: 0;
 }
 #map-canvas {
@@ -954,6 +954,10 @@ a.list-group-item:hover {
   line-height: 140%;
   font-weight: 800;
   letter-spacing: .15rem;
+  margin-bottom: 5px;
+}
+.contact-method p {
+  line-height: 140%;
 }
 .contact-method i {
   color: #ccc;

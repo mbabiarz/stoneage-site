@@ -13,7 +13,7 @@
     var bounds = new google.maps.LatLngBounds();
     console.log(bounds);
     var mapOptions = {
-      mapTypeId: google.maps.MapTypeId.HYBRID,
+      mapTypeId: google.maps.MapTypeId.TERRAIN,
       zoom: 1,
       scrollwheel: false,
       draggable: true,
@@ -35,7 +35,8 @@
         ['StoneAge Headquarters', 37.1993803,-107.8716067, '/durango-headquarters'],
         ['StoneAge Houston', 29.680113,-95.1667929, '/houston'],
         ['StoneAge Louisiana', 30.2112627,-90.9894516, '/louisiana'],
-        ['StoneAge Ohio', 41.315634,-81.779663, '/ohio']
+        ['StoneAge Ohio', 41.315634,-81.779663, '/ohio'],
+        ['StoneAge Europe', 52.1267887,-2.3032028, '/europe']
     ];
 
     // Loop through our array of markers & place each one on the map  
@@ -62,7 +63,7 @@
 
     // Override our map zoom level once our fitBounds function runs (Make sure it only runs once)
     var boundsListener = google.maps.event.addListener((map), 'bounds_changed', function(event) {
-        this.setZoom(5);
+        this.setZoom(4);
         google.maps.event.removeListener(boundsListener);
     });
   }
