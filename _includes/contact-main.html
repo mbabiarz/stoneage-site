@@ -14,7 +14,7 @@
     console.log(bounds);
     var mapOptions = {
       mapTypeId: google.maps.MapTypeId.TERRAIN,
-      zoom: 1,
+      zoom: 3,
       scrollwheel: false,
       draggable: true,
       panControl: true,
@@ -63,7 +63,7 @@
 
     // Override our map zoom level once our fitBounds function runs (Make sure it only runs once)
     var boundsListener = google.maps.event.addListener((map), 'bounds_changed', function(event) {
-        this.setZoom(4);
+        this.setZoom(3);
         google.maps.event.removeListener(boundsListener);
     });
   }
