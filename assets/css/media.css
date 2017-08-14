@@ -112,12 +112,17 @@
   }
 }
 @media screen and (max-width: 480px) {
-  .utilities .col-sm-4, .utilities .col-sm-8 {
+  .utilities .col-sm-12.utils {
     display: none;
   }
-.main-nav .navbar-nav>li, .main-nav .navbar-nav>li:first-child {
-  border: none;
-}
+  
+  #homeslider .ms-bullet {
+    width: 8px;
+    height: 8px;
+  }
+  .main-nav .navbar-nav>li, .main-nav .navbar-nav>li:first-child {
+    border: none;
+  }
   .btn.contact {
     font-size: 3.6vw;
   }

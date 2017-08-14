@@ -72,7 +72,7 @@
 .ms-view { 
 	margin:0px auto;
 	overflow:hidden;
-	background:black;
+	background:#fff;
 	position:relative;
 	-webkit-perspective: 2000px;
 	-moz-perspective: 2000px;
