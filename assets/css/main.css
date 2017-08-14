@@ -286,6 +286,7 @@ h2.whr-group {
 }
 .navbar .utilities .utils {
   text-align: right;
+  padding-right: 0;
 }
 .navbar .utilities .mobile-contact {
   text-align: center;
