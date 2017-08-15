@@ -43,6 +43,7 @@ var tipuesearch = {"pages": [
   {"title": "AutoBox ABX-500", "text": "The AutoBox ABX-500 is a hands-free hose drive for pipe and vessel cleaning.", "tags": "ABX-500-V2", "url": "/abx-500"},
   {"title": "AutoBox ABX-PRO", "text": "The AutoBox ABX-PRO is a hose feed tractor for small diameter pipe cleaning engineered with safety, portability and quick set-up in mind.", "tags": "ProDrive", "url": "/abx-pro"},
   {"title": "AutoBox ABX-PRO", "text": "The AutoBox ABX-PRO is a hose feed tractor for small diameter pipe cleaning engineered with safety, portability and quick set-up in mind.", "tags": "ProDrive", "url": "/abx-pro"},
+  {"title": "ProDrain", "text": "The ProDrain PRO-700 facilitates safe and easy drain cleaning with the ABX-PRO hose tractor.", "tags": "ProDrain", "url": "/prodrain"},
   {"title": "AutoStroke Blockage Sensor for AutoBox Heat Exchanger Tube Cleaning", "text": "The AutoStroke is designed to increase efficiency of the ABX-2L in applications with plugged heat exchanger tubes.", "tags": "pecking, AST-100-2L", "url": "/autostroke"},
   {"title": "BFW-100 High Flow Boiler Cleaner", "text": "Designed for high flow online boiler cleaning, the BFW-100 can effectively clean any large vessel with limited entry access.", "tags": "big flow waterlancer", "url": "/bfw-100"},
   {"title": "Blackhawk Concrete Hydrodemolition", "text": "The Blackhawk BHK-100 is a cost-effective, safe alternative to traditional methods of removing and scarifying concrete.", "tags": "hydro-demolition", "url": "/blackhawk"},
