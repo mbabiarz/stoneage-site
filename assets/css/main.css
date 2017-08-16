@@ -616,6 +616,9 @@ aside.cta a {
 }
 
 /* Landing Pages */
+.landing button {
+  text-transform: uppercase;
+}
 .landing-nav {
 /*  background-color: #e2e2e2;*/
   background-color: #d9d5d2;
@@ -699,6 +702,9 @@ aside.cta a {
   border-radius: 0px;
   border: 1px solid #adadad;
   cursor: pointer;   
+}
+.wb-controls a.btn:hover {
+  background: #9c8061;
 }
 .directory {
   padding: 2% 2% 0;
@@ -839,8 +845,8 @@ a.list-group-item:hover {
 .wb-landing .section-heading h2:before { 
   display: block; 
   content: " "; 
-  margin-top: -225px; 
-  height: 225px; 
+  margin-top: -222px; 
+  height: 222px; 
   visibility: hidden; 
 }
 
