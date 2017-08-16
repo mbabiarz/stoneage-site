@@ -687,7 +687,7 @@ aside.cta a {
   font-weight: 300;
   margin: 0 .4em 0 0;
 }
-.wb-controls a.btn {
+.wb-controls a.btn, .controls.home-filter a.btn {
   display: inline-block;
   padding: .4em .8em;
   margin-top: 2px;
@@ -700,19 +700,26 @@ aside.cta a {
   border: 1px solid #adadad;
   cursor: pointer;   
 }
+.directory {
+  padding: 2% 2% 0;
+  text-align: justify;
+  font-size: 0.1px;
+}
 .directory .mix, .directory .gap {
   display: inline-block;
-  width: 49%;
+/*  width: 49%;*/
   padding: 2px;
 }
 .directory .mix {
   border-radius: 4px;
   margin-bottom: 2%;
   text-align: center;
+  margin: 8px;
 }
 .directory .mix h3 {
   line-height: 1.9rem;
   padding-bottom: 5px;
+/*  font-weight: 400;*/
 }
 .directory .mix h5 {
   font-family: "Helvetica Neue", arial, sans-serif;
@@ -818,14 +825,23 @@ a.list-group-item:hover {
   padding-bottom: 14px;
 }
 .wb-landing {
-  margin-top:120px;
+  margin-top:125px;
 }
 .wb-landing .section-heading {
   border-top: 1px dotted #ccc;
+  background-color: #d9d5d2;
 }
 .wb-landing .section-heading h2 {
   margin-top: 10px;
   font-weight: 400;
+  font-size: 150%;
+}
+.wb-landing .section-heading h2:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -225px; 
+  height: 225px; 
+  visibility: hidden; 
 }
 
 /* Product Pages */
