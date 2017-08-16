@@ -115,7 +115,6 @@
   .utilities .col-sm-12.utils {
     display: none;
   }
-  
   #homeslider .ms-bullet {
     width: 8px;
     height: 8px;
@@ -134,5 +133,21 @@
   }
   .contact .first .dealer {
     border-top: 1px dotted #eee;
+  }
+  .wb-landing {
+    margin-top:200px;
+  }
+}
+
+@media all and (min-width: 420px){
+  .directory .mix,
+  .directory .gap{
+    width: 32%;
+  }
+}
+@media all and (min-width: 640px){
+  .directory .mix,
+  .directory .gap{
+    width: 23.5%;
   }
 }

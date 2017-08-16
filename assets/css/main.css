@@ -116,6 +116,9 @@ p {
 .margin-top-30 {
   margin-top: 30px;
 }
+.margin-top-60 {
+  margin-top: 60px;
+}
 .margin-bottom-30 {
   margin-bottom: 30px;
 }
@@ -301,6 +304,7 @@ h2.whr-group {
 .navbar {
   border: 0;
   background-color: #fff;
+  border-bottom: 2px solid #f8f8f8;
 }
 .navbar .social-share a {
   color: #e7e7e7;
@@ -617,8 +621,6 @@ aside.cta a {
   background-color: #d9d5d2;
   border-bottom: 3px solid #fff;
 }
-.landing-nav .landing-nav-btn {
-}
 .landing-nav .landing-nav-btn.automated {
   border-right: 3px solid #fff;
   border-left: 3px solid #fff;
@@ -672,8 +674,100 @@ aside.cta a {
 .landing .section-header.header {
   padding: 15px 0;
 }
+.wb-controls {
+  padding: 1.7%;
+  background: #424242;
+  color: #eee;
+}
+.wb-controls input {
+  color: #585858;
+  font-weight: 300;
+}
+.wb-controls label {
+  font-weight: 300;
+  margin: 0 .4em 0 0;
+}
+.wb-controls a.btn {
+  display: inline-block;
+  padding: .4em .8em;
+  margin-top: 2px;
+  background: #585858;
+  border: 0;
+  color: #ddd;
+  font-size: 14px;
+  font-weight: 300;
+  border-radius: 0px;
+  border: 1px solid #adadad;
+  cursor: pointer;   
+}
+.directory .mix, .directory .gap {
+  display: inline-block;
+  width: 49%;
+  padding: 2px;
+}
 .directory .mix {
+  border-radius: 4px;
+  margin-bottom: 2%;
   text-align: center;
+}
+.directory .mix h3 {
+  line-height: 1.9rem;
+  padding-bottom: 5px;
+}
+.directory .mix h5 {
+  font-family: "Helvetica Neue", arial, sans-serif;
+  color: #545454;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  padding: 0 20px 10px 20px;
+  margin: 0;
+  text-align: center;
+}
+.directory .mix .table {
+  width: 90%;
+  font-size: 12px;
+  color: #888;
+  text-align: left;
+  margin: auto;
+}
+.directory .mix .table th {
+  text-align: right;
+  width: 35%;
+}
+.directory .mix button{
+  display: inline-block;
+  padding: .4em .8em;
+  margin-top: 2px;
+  background: #585858;
+  border: 0;
+  color: #ddd;
+  font-size: 14px;
+  font-weight: 300;
+  border-radius: 0px;
+  border: 1px solid #adadad;
+  cursor: pointer;   
+}
+.directory .mix button:focus{
+  outline: 0 none;
+}
+.directory .mix button {
+  display: block;
+  width: 90%;
+  border-radius: 0;
+  margin: 0 auto 10px auto;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .05rem;
+  font-weight: 400;
+  font-size: 12px;
+}
+.directory .mix a button {
+  background-color: #9c8061;
+}
+.directory .mix a:hover button {
+  background-color: #81674b;
 }
 .list-group-item.header, .list-group-item.header:active, .list-group-item.header:hover {
   font-family: 'Roboto Slab', 'Lato', sans-serif;
@@ -722,6 +816,16 @@ a.list-group-item:hover {
 }
 .spincat .product-list img.sc-287 {
   padding-bottom: 14px;
+}
+.wb-landing {
+  margin-top:120px;
+}
+.wb-landing .section-heading {
+  border-top: 1px dotted #ccc;
+}
+.wb-landing .section-heading h2 {
+  margin-top: 10px;
+  font-weight: 400;
 }
 
 /* Product Pages */
