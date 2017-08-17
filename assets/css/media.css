@@ -104,6 +104,12 @@
   .indicator-panel {
     display: none;
   }
+  .landing .controls.home-filter ul {
+  display: none;
+  }
+  .landing .controls.home-filter select {
+  display: inline-block;
+  }
 }
 
 @media screen and (min-width: 481px) {

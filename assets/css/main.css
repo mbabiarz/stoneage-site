@@ -497,6 +497,16 @@ h2.whr-group {
   font-weight: 800;
   letter-spacing: 2px;
 }
+.landing .controls.home-filter .list-inline>li {
+    padding:0;
+}
+.landing .controls.home-filter select {
+  display: none;
+  color: #444;
+  min-width:300px;
+  border-radius: 0;
+  margin-bottom: 15px;
+}
 .home-about {
 /*  border-top: 9px solid #f6f6f6;*/
 }
@@ -703,7 +713,7 @@ aside.cta a {
   border: 1px solid #adadad;
   cursor: pointer;   
 }
-.wb-controls a.btn:hover {
+.wb-controls a.btn:hover, .landing .controls.home-filter a.btn:hover {
   background: #9c8061;
 }
 .directory {

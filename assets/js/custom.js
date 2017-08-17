@@ -96,6 +96,7 @@ $(document).ready(function(){
   
   
 })
+
 //***** Animate home page CTA's *****//
 var pointsArray = document.getElementsByClassName("point");
 
@@ -112,7 +113,6 @@ var animatePoints = function(points) {
     revealPoints(i);
   }
 };
-
 window.onload = function() {
   // Automatically animate on tall screens
   if (window.innerHeight > 750) {
@@ -128,8 +128,12 @@ window.onload = function() {
   });
 }
 
-
-//-- Tipue Search --//
+//***** Tipue Search *****//
 $(document).ready(function() {
    $('#tipue_search_input').tipuesearch();
 })
+
+//***** Hope mobile dropdown *****//
+$(".home-filter select").change(function() {
+  window.location = $(this).find("option:selected").val();
+});

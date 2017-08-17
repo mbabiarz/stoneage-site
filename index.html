@@ -231,16 +231,32 @@ landing: yes
 <div class="row landing">
   <div class="controls home-filter text-center">
     <h2>What are you cleaning?</h2>
-    <a href="/waterblast-tools-automated-equipment#exchanger" class="btn">Exchangers</a>
-    <a href="/waterblast-tools-automated-equipment#pipe" class="btn">Pipes/Drains</a>
-    <a href="/waterblast-tools-automated-equipment#surface" class="btn">Surfaces</a>
-    <a href="/waterblast-tools-automated-equipment#tank" class="btn">Tanks/Vessels</a>
-    <a href="/waterblast-tools-automated-equipment#boiler" class="btn">Boilers/Furnaces</a>
-    <a href="/waterblast-tools-automated-equipment#concrete" class="btn">Concrete</a>
-    <a href="/sewer-tools" class="btn">Sewer Lines</a>
-    <a href="/downhole-tools" class="btn">Downhole</a>
-    <a href="#" data-featherlight="#search-box"><img src="/assets/img/icon_search_lg.png" alt="Search" style="width:20px; margin-left:15px;" /></a>
-
+    <ul class="list-unstyled list-inline">
+      <li><a href="/waterblast-tools-automated-equipment#exchanger" class="btn">Exchangers</a></li>
+      <li><a href="/waterblast-tools-automated-equipment#pipe" class="btn">Pipes/Drains</a></li>
+      <li><a href="/waterblast-tools-automated-equipment#surface" class="btn">Surfaces</a></li>
+      <li><a href="/waterblast-tools-automated-equipment#tank" class="btn">Tanks/Vessels</a></li>
+      <li><a href="/waterblast-tools-automated-equipment#boiler" class="btn">Boilers/Furnaces</a></li>
+      <li><a href="/waterblast-tools-automated-equipment#concrete" class="btn">Concrete</a></li>
+      <li><a href="/sewer-tools" class="btn">Sewer Lines</a></li>
+      <li><a href="/downhole-tools" class="btn">Downhole</a></li>
+      <li><a href="#" data-featherlight="#search-box"><img src="/assets/img/icon_search_lg.png" alt="Search" style="width:20px; margin-left:15px;" /></a></li>
+    </ul>
+    <!-- Mobile version -->
+    <select class="wb-controls-mobile text-center" onchange="this.form.submit()">
+      <label>Filter for:</label>
+      <option value="/">Select</option>
+      <option value="/waterblast-tools-automated-equipment#exchanger">Exchangers</option>
+      <option value="/waterblast-tools-automated-equipment#pipe">Pipes/Drains</option>
+      <option value="/waterblast-tools-automated-equipment#surface">Surfaces</option>
+      <option value="/waterblast-tools-automated-equipment#tank">Tanks/Vessels</option>
+      <option value="/waterblast-tools-automated-equipment#boiler">Boilers/Furnaces</option>
+      <option value="/waterblast-tools-automated-equipment#concrete">Concrete</option>
+      <option value="/sewer-tools">Sewer Lines</option>
+      <option value="/downhole-tools">Downhole</option>
+    </select>
+    
+    
     <div class="lightbox" id="search-box">
       <form action="search">
         <input type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="What are we looking for?">
