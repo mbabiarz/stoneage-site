@@ -303,8 +303,8 @@ h2.whr-group {
 }
 .navbar {
   border: 0;
-  background-color: #fff;
-  border-bottom: 2px solid #f8f8f8;
+  background-color: #f8f8f8;
+/*  border-bottom: 2px solid #f8f8f8;*/
 }
 .navbar .social-share a {
   color: #e7e7e7;
@@ -797,6 +797,9 @@ a.list-group-item:hover {
 .product-list .list-group-item .label {
   float: right;
   border-radius: 0;
+}
+.warthog .heading {
+  padding: 10px;
 }
 .spincat {
   text-align: center;
