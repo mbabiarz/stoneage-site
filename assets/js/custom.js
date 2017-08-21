@@ -133,7 +133,8 @@ $(document).ready(function() {
    $('#tipue_search_input').tipuesearch();
 })
 
-//***** Hope mobile dropdown *****//
+//***** Home mobile dropdown *****//
+// https://css-tricks.com/convert-menu-to-dropdown //
 $(".home-filter select").change(function() {
   window.location = $(this).find("option:selected").val();
 });
