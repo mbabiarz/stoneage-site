@@ -448,10 +448,10 @@ h2.whr-group {
   border: 1px solid #adadad;
   padding: 6px 8px;
 }
-.home-slider .carousel .item>img, .product-testimonials .carousel .item>img {
+.home-slider .carousel .item>img,*/ .product-testimonials .carousel .item>img {
   min-width: 100%;
 }
-*/
+
 #homeslider .ms-bullet {
   display: block;
   width: 12px;
