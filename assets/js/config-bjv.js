@@ -529,7 +529,7 @@ const App = React.createClass({
             
             <div>
               <hr />
-              <p><a href="http://jetting.stoneagetools.com/tool/jetting-app.html" target="_blank"><i className="fa fa-plane"></i> See our Jetting Calculator for detailed tool jetting information.</a></p>
+              <p><a href="http://jetting.stoneagetools.com" target="_blank"><i className="fa fa-plane"></i> See our Jetting Calculator for detailed tool jetting information.</a></p>
             </div>
               
             <div className="prev-next">
