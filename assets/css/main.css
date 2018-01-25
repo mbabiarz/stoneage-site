@@ -1309,6 +1309,13 @@ h1.page-heading {
   margin-bottom: 15px;
   letter-spacing: .1rem
 }
+#staffCarousel img {
+/*  height:400px; */
+  border-right: 6px solid #fff;  
+}
+#staffCarousel .owl-theme .owl-controls {
+  display: none;
+}
 ul.job-listings>li {
   padding: 20px;
   border-bottom: 1px solid #e8e8e8;
