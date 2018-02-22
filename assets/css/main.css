@@ -135,6 +135,9 @@ p {
 .bg-md-grey {
     background-color: #e7e7e7;
 }
+.bg-dk-grey {
+    background-color: #888;
+}
 .bottom-border {
   border-bottom: 1px solid #e7e7e7;
 }
@@ -1381,6 +1384,11 @@ ul.job-listings>li {
 }
 .manuals .nav-tabs {
   border-bottom: 0;
+}
+.rental-demo {
+  background: url(/assets/img/demo-trailer-06.jpg) top center;
+  min-height: 500px; 
+  background-size: cover;
 }
 
 /* Footers */
