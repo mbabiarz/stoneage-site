@@ -841,10 +841,10 @@ a.list-group-item:hover {
   padding: 5px 15px 21px 15px;
 }
 .spincat .product-list img.sc-250 {
-  padding: 5px 8px 23px 8px;
+  padding: 5px 8px 26px 8px;
 }
 .spincat .product-list img.sc-287 {
-  padding-bottom: 14px;
+  padding-bottom: 12px;
 }
 .wb-landing {
   margin-top:125px;
@@ -1339,8 +1339,8 @@ ul.job-listings>li {
   border-bottom: 1px dotted #ccc;
 }
 .safety-callout {
-  border-bottom: 1px dotted #cb3a3a;
-  border-top: 1px dotted #cb3a3a;
+  border-bottom: 9px solid #cb3a3a;
+  border-top: 9px solid #cb3a3a;
   font-size: 120%;
 }
 .safety-callout a {
@@ -1353,6 +1353,8 @@ ul.job-listings>li {
 }
 .safety-callout h2 {
   font-weight: 800;
+  font-size:300%;
+  color: #cb3a3a;
 }
 .rental-questions .panel {
   -webkit-box-shadow: none;

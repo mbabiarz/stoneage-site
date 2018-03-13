@@ -152,7 +152,7 @@
     width: 32%;
   }
 }
-@media all and (min-width: 640px){
+@media all and (min-width: 1199px){
   .directory .mix,
   .directory .gap{
     width: 23.5%;
