@@ -1269,6 +1269,9 @@ a.list-group-item:hover {
   font-size: 16px;
   font-weight: 600;
 }
+.contact .dealer p:first-of-type {
+  margin-bottom: 0;
+}
 .contact .dealers-by-region ul {
   margin: 5px;
 }
