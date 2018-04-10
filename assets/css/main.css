@@ -1455,6 +1455,10 @@ footer .link-list li i {
     float: right;
     margin-top: 10px;
 }
+footer .social li a {
+  color:#ccc; 
+  font-size: 150%;
+}
 footer .map-bg {
   background: url(../img/map-img.png) 5px 60px no-repeat;
 }
