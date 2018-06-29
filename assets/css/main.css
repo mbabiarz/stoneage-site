@@ -817,7 +817,7 @@ a.list-group-item:hover {
 .spincat {
   text-align: center;
 }
-.spincat .heading-img img {
+.spincat .heading-img img, .warthog .heading-img img {
   width: 100%;
 }
 .spincat h1, .spincat h3 {
@@ -864,6 +864,9 @@ a.list-group-item:hover {
   margin-top: -222px; 
   height: 222px; 
   visibility: hidden; 
+}
+.warthog.landing .header {
+    padding: 0;
 }
 
 /* Product Pages */

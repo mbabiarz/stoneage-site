@@ -38,6 +38,7 @@ var tipuesearch = {"pages": [
   {"title": "VE-400 Safety Stop", "text": "The VE-400 is designed to protect the operator from a flex lance exiting the tube sheet during cleaning operations.", "tags": "chicken wing", "url": "/ve-400"},
   
   // Waterblast AE
+  {"title": "Air Knife", "text": "The Air Knife cleans effluent off hoses with a blade of pressurized air before they are retracted back into the tractor.", "tags": "greasy, oily, Air Knife", "url": "/air-knife"},
   {"title": "AutoBox ABX-2L", "text": "The AutoBox ABX-2L is an automated system for hands-free heat exchanger tube cleaning applications.", "tags": "ABX-2L-V2, lancing", "url": "/abx-2l"},
   {"title": "AutoBox ABX-3L", "text": "The AutoBox ABX-3L is an automated system for hands-free heat exchanger tube cleaning applications designed to run triple, dual, or single flex lance setups.", "tags": "lancing", "url": "/abx-3l"},
   {"title": "AutoBox ABX-500", "text": "The AutoBox ABX-500 is a hands-free hose drive for pipe and vessel cleaning.", "tags": "ABX-500-V2", "url": "/abx-500"},
