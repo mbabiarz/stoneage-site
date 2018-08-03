@@ -1,0 +1,36 @@
+{% if page.contact-nl %}
+<!--Google Maps API-->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnRdGJxT3d0IKrd8fwWieECslVq_CReSA&amp;sensor=true"></script>
+<script>
+  function initialize() {
+    var mapOptions = {
+      center: new google.maps.LatLng(51.8141698,4.4977865),
+      zoom: 9,
+      mapTypeId: google.maps.MapTypeId.TERRAIN,
+      scrollwheel: false,
+      draggable: true,
+      panControl: true,
+      zoomControl: true,
+      mapTypeControl: true,
+      scaleControl: true,
+      streetViewControl: true,
+      overviewMapControl: true,
+      rotateControl: true,
+    };
+    var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+    var contentString = 'StoneAge NL &bull; Rotterdan, NL';
+    var infowindow = new google.maps.InfoWindow({
+      content: contentString
+    });
+    var marker = new google.maps.Marker({
+      position: mapOptions.center,
+      map: map,
+      title: 'StoneAge Netherlands'
+    });  
+    marker.addListener('click', function() {
+      infowindow.open(map, marker);
+    });
+  }
+  google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+{% endif %}

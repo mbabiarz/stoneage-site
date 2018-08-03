@@ -273,6 +273,9 @@ h2.whr-group {
 .accessories a.btn:hover {
   background-color: #555;
 }
+textarea#message-4ebf2c10-379c-4fc6-92f0-c8b9f82d93e7 {
+  min-height:150px;
+}
 
 /* Header & Navigation */
 .navbar .utilities {
