@@ -122,6 +122,9 @@
   }
 }
 @media screen and (max-width: 480px) {
+  .navbar-brand img {
+    max-height:40px !important;
+  }
   .utilities .col-sm-12.utils {
     display: none;
   }
