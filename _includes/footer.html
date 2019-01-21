@@ -123,6 +123,24 @@
     })(document,"script","hs-analytics",300000);
   </script>
   <!-- End of Async HubSpot Analytics Code --> 
+
+  <!-- Start Pardot campaign tracking Code -->
+  <script type="text/javascript">
+    piAId = '645393';
+    piCId = '2393';
+    piHostname = 'pi.pardot.com';
+
+    (function() {
+        function async_load(){
+            var s = document.createElement('script'); s.type = 'text/javascript';
+            s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+            var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+        }
+        if(window.attachEvent) { window.attachEvent('onload', async_load); }
+        else { window.addEventListener('load', async_load, false); }
+    })();
+  </script>
+  <!-- End Pardot campaign tracking Code -->
   
   <!-- Start Google Analytics Code -->
   <script>
