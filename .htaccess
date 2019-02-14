@@ -23,5 +23,6 @@ Redirect 301 /switcher /wgr-switcher
 Redirect 301 /rotary-swivels /waterblast-tools-automated-equipment
 Redirect 301 /news http://news.stoneagetools.com/
 Redirect 301 /custom-solutions /solutions
+Redirect 301 /blackhawk https://news.stoneagetools.com/tool-obsolescence-bhk-100
 
 Redirect 302 /rotary-hydro-x /fixed-hydro-x
