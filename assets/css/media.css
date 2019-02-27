@@ -4,6 +4,11 @@
     top: 32rem;
   }
 }
+@media all and (min-width: 1212px) {
+  .training.landing .pardot-form h3, .training.landing .pardot-form p {
+    padding-left: 175px;
+  }
+}
 @media screen and (max-width: 1212px) {
   .home-slider .indicator-panel {
     height: 120px;
@@ -30,6 +35,9 @@
   .home-slider .indicator-panel {
     top: 50%;
     width: 70%;
+  }
+  .training.landing .heading-img {
+  height:720px; 
   }
 }
 
@@ -102,6 +110,9 @@
   .warthog .heading-img img {
     display: none;
   }
+  .training.landing .hs-form {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 605px) {
@@ -113,6 +124,9 @@
   }
   .landing .controls.home-filter select {
   display: inline-block;
+  }
+  .training.landing .heading-img {
+  height:720px; 
   }
 }
 
@@ -152,6 +166,15 @@
   }
 }
 
+@media all and (max-width: 480px) {
+  .training.landing .heading-img {
+  height:1080px; 
+  }
+  .training.landing form.form p label {
+    text-align: left !important;
+    float: left;
+  }
+}
 
 @media all and (min-width: 420px){
   .directory .mix,

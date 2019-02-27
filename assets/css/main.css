@@ -189,6 +189,9 @@ p {
 .heading-img{
   padding: 0;
 }
+img.round {
+  border-radius:50%;
+}
 .carousel-control.left, .carousel-control.right {
   background: none;
 }
@@ -870,6 +873,80 @@ a.list-group-item:hover {
 }
 .warthog.landing .header {
     padding: 0;
+}
+
+.training.landing .grey {
+  color:#686868;
+}
+.training.landing .header .container {
+  padding-top:3%;
+}
+.training.landing .heading-img {
+  height:500px; 
+  background: url(/assets/img/bg_safety_bw.jpg) no-repeat center left; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover;
+}
+.training.landing .heading h1 {
+  text-align: left;
+  color: #fff;
+  font-weight: 800;
+  font-size: 300%;
+  text-transform: none;
+}
+.training.landing .heading p {
+  text-align: left;
+  color: #fff;
+  text-transform: none;
+  margin-top: 15px;
+  font-size: 135%;
+  line-height: 1.6em;
+  font-weight:300;
+}
+.training.landing .pardot-form h3, .training.landing .pardot-form p {
+  text-align: left;
+  color: #fff;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.training.landing iframe {
+  border: none;
+}
+.training.landing .description{
+/*  color: #747474;*/
+}
+
+.training.landing ul.description {
+  font-size: 120%;
+  line-height: 2.5em;
+  margin-top: 10px;
+}
+.training.landing ul.description li:before {
+  content: '\f00c';
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1.5em;
+  color: #db6e66;
+}
+.training.landing .overview h2 {
+  text-align: center;
+  font-size: 220%;
+  margin-bottom: 30px;
+}
+.training.landing .overview h3 {
+  background-color: #c5c5c5;
+  padding: 4px 12px;
+  color:#fff;
+  margin-bottom: 0;
+}
+.training.landing .overview img {
+  margin-bottom: 30px;
+}
+.training.landing .big-130 {
+  font-size:130%;
+  line-height: 150%;
 }
 
 /* Product Pages */
