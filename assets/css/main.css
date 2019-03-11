@@ -919,8 +919,7 @@ a.list-group-item:hover {
 }
 
 .training.landing ul.description {
-  font-size: 120%;
-  line-height: 2.5em;
+  line-height: 2.2em;
   margin-top: 10px;
 }
 .training.landing ul.description li:before {

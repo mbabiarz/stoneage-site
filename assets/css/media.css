@@ -8,6 +8,9 @@
   .training.landing .pardot-form h3, .training.landing .pardot-form p {
     padding-left: 175px;
   }
+  #homeslider .feature-img {
+    width: 700px;
+  }
 }
 @media screen and (max-width: 1212px) {
   .home-slider .indicator-panel {
@@ -15,6 +18,9 @@
   }
   .product-thumbnails a.btn {
     top:48px;
+  }
+  #homeslider .feature-img {
+    width: 500px;
   }
 }
 
@@ -38,6 +44,9 @@
   }
   .training.landing .heading-img {
   height:720px; 
+  }
+  #homeslider .feature-img {
+    width: 400px;
   }
 }
 
@@ -81,6 +90,9 @@
   }
   #wordCarousel .item p.attrib {
     font-size: 90%;
+  }
+  #homeslider .feature-img {
+    width: 320px;
   }
   
   /* Landing pages */
@@ -128,6 +140,9 @@
   .training.landing .heading-img {
   height:720px; 
   }
+  .training.landing ul.description {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 481px) {
@@ -173,6 +188,9 @@
   .training.landing form.form p label {
     text-align: left !important;
     float: left;
+  }
+  #homeslider .feature-img {
+    width: 220px;
   }
 }
 
