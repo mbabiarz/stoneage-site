@@ -38,18 +38,25 @@ contact-main: yes
           <div class="col-sm-4 contact-method">
             <h2><i class="fa fa-envelope"></i><br/>Email Us</h2>
             <hr> 
-            <!--**** HubSpot contact form ****-->
-            <!--[if lte IE 8]>
-            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-            <![endif]-->
-            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-            <script>
-              hbspt.forms.create({
-                portalId: '1875880',
-                formId: '4ebf2c10-379c-4fc6-92f0-c8b9f82d93e7'
-              });
+            <!-- Pardot contact form -->
+            <iframe src="https://www2.stoneagetools.com/l/644393/2019-03-05/2h2lc" width="100%" scrolling="no" id="sizetracker" frameborder="0"></iframe>            
+
+            <!-- Pardot form sizing -->
+            <script type="text/javascript">
+              // Create browser compatible event handler.
+              var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+              var eventer = window[eventMethod];
+              var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+              // Listen for a message from the iframe.
+              eventer(messageEvent, function(e) {
+                if (isNaN(e.data)) return;
+
+                // replace #sizetracker with what ever what ever iframe id you need
+                document.getElementById('sizetracker').style.height = e.data + 'px';
+
+              }, false);
             </script>
-            <!--**** End HubSpot contact form ****-->
+            <!-- End Pardot contact form -->
           </div> 
           <!-- Locations -->
           <div class="col-sm-4 contact-method">
