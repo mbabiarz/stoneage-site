@@ -1,0 +1,49 @@
+---
+layout: default
+page-type: page
+title: StoneAge Demo Trailer 
+excerpt: Let us bring equipment demos, training, and field support directly to your location.
+permalink: /request-demo
+---
+
+<div class="fluid-container landing-nav">
+  <div class="container">
+    <h1 class="page-heading">StoneAge Demo Trailer</h1>
+  </div>
+</div>
+
+<section class="container padding-tb-30 margin-bottom-30">
+  <div class="col-sm-7">
+    <img src="/assets/img/demo-trailer-06.png" alt="StoneAge demo trailer">
+    <h1 class="thin grey spaced margin-bottom-30"><em>Let us bring equipment demos, training, and field support directly to you.</em></h1>
+    <p><strong>Would you like to try StoneAge equipment before you buy?</strong> Our demo trailers bring industry-leading automated equipment and waterblast tooling to your location for demonstrations, training, and job support.</p>
+    <p>StoneAge techs are happy to share their expertise, help you select the right equipment, show you how to run it, optimize for the specifics of your job, and cover all recommended safety procedures.</p>
+    <h2 class="thin grey spaced margin-bottom-30"><em>Experience the power of StoneAge equipment &mdash; on location.</em></h2>
+    <img src="/assets/img/demo-trailer-collage-01.jpg" alt="StoneAge demos" class="margin-bottom-30" />
+  </div>
+
+  <aside class="col-sm-4 col-sm-offset-1 padding-tb-30 cta">
+    <h2 style="font-size:28px; font-weight: 600; text-align: center;">Request a demo</h2>
+    <!-- Pardot contact form -->
+    <iframe src="https://www2.stoneagetools.com/l/644393/2019-04-08/442k1" width="100%" scrolling="no" id="sizetracker" frameborder="0"></iframe>    
+
+    <!-- Pardot form sizing -->
+    <script type="text/javascript">
+      // Create browser compatible event handler.
+      var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+      var eventer = window[eventMethod];
+      var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+      // Listen for a message from the iframe.
+      eventer(messageEvent, function(e) {
+        if (isNaN(e.data)) return;
+
+        // replace #sizetracker with what ever what ever iframe id you need
+        document.getElementById('sizetracker').style.height = e.data + 'px';
+
+      }, false);
+    </script>
+    <!-- End Pardot contact form -->
+  </aside>
+</section>
+
+{% include footer-cta.html %}

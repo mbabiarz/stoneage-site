@@ -114,6 +114,16 @@
   <!-- configurator TEST dependencies -->
   {% include config-bjv-includes.html %}
   {% include config-nav-includes.html %}
+
+  <!-- Open Sewer Dealers tab on URL --->
+    <script type="text/javascript">
+      if (window.location.href == 'https://www.stoneagetools.com/contact#sewer-tab') {
+        $('.sales-tab').removeClass('active');
+        $('#sales-tab').removeClass('active');
+        $('.sewer-tab').addClass('active');
+        $('#sewer-tab').addClass('active');
+      };
+    </script>
   
   <!-- Start of Async HubSpot Analytics Code -->
   <script type="text/javascript">

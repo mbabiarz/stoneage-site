@@ -27,3 +27,4 @@ Redirect 301 /blackhawk https://news.stoneagetools.com/tool-obsolescence-bhk-100
 Redirect 301 /yellow-jacket https://www.stoneagetools.com/assets/pdf/reference/legacy/Obsolete_JKT.pdf
 
 Redirect 302 /rotary-hydro-x /fixed-hydro-x
+Redirect 302 /warthog-dealers https://www.stoneagetools.com/contact#sewer-tab

@@ -14,16 +14,25 @@ permalink: /request-financing
 <section class="container padding-tb-30">
   <div class="col-sm-7" style="padding-top:20px;">
 
-    <!--[if lte IE 8]>
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-    <![endif]-->
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-    <script>
-      hbspt.forms.create({
-        portalId: "1875880",
-        formId: "9cd4e7c5-2396-4204-a5f2-428946b91244"
-    });
+    <!-- Pardot contact form -->
+    <iframe src="https://www2.stoneagetools.com/l/644393/2019-04-08/4429y" width="100%" scrolling="no" id="sizetracker" frameborder="0"></iframe>    
+
+    <!-- Pardot form sizing -->
+    <script type="text/javascript">
+      // Create browser compatible event handler.
+      var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+      var eventer = window[eventMethod];
+      var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+      // Listen for a message from the iframe.
+      eventer(messageEvent, function(e) {
+        if (isNaN(e.data)) return;
+
+        // replace #sizetracker with what ever what ever iframe id you need
+        document.getElementById('sizetracker').style.height = e.data + 'px';
+
+      }, false);
     </script>
+    <!-- End Pardot contact form -->
 
   </div>
 
@@ -31,7 +40,7 @@ permalink: /request-financing
     <h2>Would you like to try StoneAge equipment before you buy?</h2>
     <img src="/assets/img/demo-trailer-06.png" class="img-responsive" />
     <p style="padding-top:15px;" class="thin">Our demo trailers bring industry-leading automated equipment and waterblast tooling to your location for demonstrations, training, and job support.</p>
-    <em><a href="http://info.stoneagetools.com/demo-request">Click here to request a demo</a></em>
+    <em><a href="/request-demo">Click here to request a demo</a></em>
   </div>
 </section>
 
