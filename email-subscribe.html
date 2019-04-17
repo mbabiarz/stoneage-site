@@ -14,18 +14,24 @@ permalink: /subscribe
 <section class="container padding-tb-30">
   <div class="col-sm-7">
     
-    <!--**** HubSpot request form ****-->
-    <!--[if lte IE 8]>
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-    <![endif]-->
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-    <script>
-      hbspt.forms.create({
-        portalId: '1875880',
-        formId: '270abcf6-5c52-4749-b323-7838ddc846f8'
-      });
-    </script>
-    <!--**** End HubSpot request form ****-->
+    <!-- Pardot contact form -->
+    <iframe src="https://www2.stoneagetools.com/l/644393/2019-04-16/4g5vt" width="100%" scrolling="no" id="sizetracker" frameborder="0"></iframe>        
+      <!-- Pardot form sizing -->
+      <script type="text/javascript">
+        // Create browser compatible event handler.
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        // Listen for a message from the iframe.
+        eventer(messageEvent, function(e) {
+          if (isNaN(e.data)) return;
+
+          // replace #sizetracker with what ever what ever iframe id you need
+          document.getElementById('sizetracker').style.height = e.data + 'px';
+
+        }, false);
+      </script>
+    <!-- End Pardot contact form -->
     
   </div>
   
@@ -33,7 +39,7 @@ permalink: /subscribe
     <h2>About our E-blasts</h2>
     <p>We send product updates, new equipment announcements, and information pertinent to field testing and other opportunities via e-mail.</p>
     <p>Our aim is to keep these to a minimum so we're not slamming your inbox, but you can expect to receive updates at least once a month.</p>
-    <p><strong>Thanks for your interest!</strong> Let us know if you have questions or suggestions about how you receive information from us.</p>
+    <p>Let us know if you have questions or suggestions about how you receive information from us.</p>
   </aside>
 </section>
   

@@ -38,25 +38,26 @@ contact-main: yes
           <div class="col-sm-4 contact-method">
             <h2><i class="fa fa-envelope"></i><br/>Email Us</h2>
             <hr> 
+            
             <!-- Pardot contact form -->
-            <iframe src="https://www2.stoneagetools.com/l/644393/2019-03-05/2h2lc" width="100%" scrolling="no" id="sizetracker" frameborder="0"></iframe>            
+            <iframe src="https://www2.stoneagetools.com/l/644393/2019-03-05/2h2lc" width="100%" scrolling="no" id="sizetracker" frameborder="0"></iframe>        
+              <!-- Pardot form sizing -->
+              <script type="text/javascript">
+                // Create browser compatible event handler.
+                var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+                var eventer = window[eventMethod];
+                var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+                // Listen for a message from the iframe.
+                eventer(messageEvent, function(e) {
+                  if (isNaN(e.data)) return;
 
-            <!-- Pardot form sizing -->
-            <script type="text/javascript">
-              // Create browser compatible event handler.
-              var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
-              var eventer = window[eventMethod];
-              var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
-              // Listen for a message from the iframe.
-              eventer(messageEvent, function(e) {
-                if (isNaN(e.data)) return;
+                  // replace #sizetracker with what ever what ever iframe id you need
+                  document.getElementById('sizetracker').style.height = e.data + 'px';
 
-                // replace #sizetracker with what ever what ever iframe id you need
-                document.getElementById('sizetracker').style.height = e.data + 'px';
-
-              }, false);
-            </script>
+                }, false);
+              </script>
             <!-- End Pardot contact form -->
+            
           </div> 
           <!-- Locations -->
           <div class="col-sm-4 contact-method">
