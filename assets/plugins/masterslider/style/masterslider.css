@@ -78,9 +78,13 @@
 	-moz-perspective: 2000px;
 	-ms-perspective: 2000px;
 	perspective: 2000px;
+    background-color: #ffffff;
 }
 
-.ms-view .ms-slide-container{position:relative;}
+.ms-view .ms-slide-container {
+    position:relative;
+    background-color: #ffffff;
+}
 
 .ms-slide {
 	position:absolute;
