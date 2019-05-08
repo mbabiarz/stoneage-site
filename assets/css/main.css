@@ -1404,6 +1404,16 @@ h1.page-heading {
 #staffCarousel .owl-theme .owl-controls {
   display: none;
 }
+#staffCarousel h4 {
+    background-color: #333;
+    display: block;
+    padding: 6px;
+    border-right: 6px solid #fff;
+    margin: 0;
+    color: #eee;
+    font-size: 90%;
+    letter-spacing: .5px;
+}
 ul.job-listings>li {
   padding: 20px;
   border-bottom: 1px solid #e8e8e8;
