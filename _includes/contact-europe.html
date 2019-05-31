@@ -4,7 +4,7 @@
 <script>
   function initialize() {
     var mapOptions = {
-      center: new google.maps.LatLng(52.1267887,-2.3032028),
+      center: new google.maps.LatLng(52.1571103,-2.163515),
       zoom: 7,
       mapTypeId: google.maps.MapTypeId.TERRAIN,
       scrollwheel: false,
@@ -18,14 +18,14 @@
       rotateControl: true,
     };
     var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-    var contentString = 'StoneAge Europe &bull; Malvern, UK';
+    var contentString = 'StoneAge Europe &bull; Worcestershire, UK';
     var infowindow = new google.maps.InfoWindow({
       content: contentString
     });
     var marker = new google.maps.Marker({
       position: mapOptions.center,
       map: map,
-      title: 'StoneAge Europe'
+      title: 'StoneAge Europe Ltd.'
     });  
     marker.addListener('click', function() {
       infowindow.open(map, marker);

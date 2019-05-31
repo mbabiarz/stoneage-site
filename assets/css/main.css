@@ -1433,6 +1433,9 @@ ul.job-listings>li {
 .terms .term {
   border-bottom: 1px dotted #ccc;
 }
+.terms ul>li {
+  line-height:2.3rem;
+}
 .safety-callout {
   border-bottom: 9px solid #cb3a3a;
   border-top: 9px solid #cb3a3a;
