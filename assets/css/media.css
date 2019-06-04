@@ -210,7 +210,7 @@
 
 
 /* -- Change to hamburger nave sooner -- */
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
   .navbar-header {
       float: none;
   }
