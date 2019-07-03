@@ -5,7 +5,105 @@ excerpt: High quality, durable jetting and hydroexcavation nozzles for the sewer
 permalink: /sewer-tools
 landing: yes
 ---
-  
+
+<style>
+  /* Make entire row a link */
+  td {
+    line-height: 75px;
+  }
+  td a { 
+    color: #444 !important;
+    display: block;
+    height: 75px;
+  }  
+  td img {
+    width: 175px;
+  }
+    /*
+	Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically.
+	*/
+	@media
+	  only screen 
+    and (max-width: 760px), (min-device-width: 768px) 
+    and (max-device-width: 1024px)  {
+
+		/* Force table to not be like tables anymore */
+		table, thead, tbody, th, td, tr {
+			display: block;
+            border: 0 !important;
+		}
+
+		/* Hide table headers (but not display: none;, for accessibility) */
+		thead tr.col-headings {
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+
+        tr {
+          margin: 0 0 1rem 0;
+        }
+
+/*
+        tr:nth-child(odd) {
+          background: #eee;
+        }
+*/
+      
+        td {
+          line-height: auto;
+          text-align: center;
+          border: 0 !important;
+          border-bottom: 1px solid rgb(221, 221, 221) !important;
+        }
+        td a { 
+          color: #444 !important;
+          display: block;
+          height: auto;
+          text-align: center;
+        } 
+    
+		td {
+			/* Behave  like a "row" */
+			border: none;
+			border-bottom: 1px solid #eee;
+			position: relative;
+			padding-left: 50%;
+		}
+
+		td:before {
+			/* Now like a table header */
+			position: absolute;
+			/* Top/left values mimic padding */
+			top: auto;
+			left: 6px;
+			width: 45%;
+			padding-right: 10px;
+			white-space: nowrap;
+		}
+
+		/*
+		Label the data
+    You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+		*/
+		td:nth-of-type(1):before { content: " "; }
+		td:nth-of-type(2):before { content: "Nozzle:"; }
+		td:nth-of-type(3):before { content: "Pipe Size:"; }
+		td:nth-of-type(4):before { content: "Inlet Size:"; }
+		td:nth-of-type(5):before { content: "Flow:"; }
+		td:nth-of-type(6):before { content: "Pressure:"; }
+      
+        table.hx td:nth-of-type(1):before { content: " " !important; }
+		table.hx td:nth-of-type(2):before { content: "Nozzle:" !important; }
+		table.hx td:nth-of-type(4):before { content: "Flow:" !important; }
+		table.hx td:nth-of-type(3):before { content: "Inlet Size:" !important; }
+		table.hx td:nth-of-type(5):before { content: "Pressure:" !important; }
+      
+        table.accessories td:before { content: " " !important; }
+	}
+</style>
+
+
 <section class="landing warthog">
   <div class="row header">
     <div class="col-sm-12 heading-img">
@@ -19,10 +117,13 @@ landing: yes
 -->
   </div>
   
+  
   <!-- MixItUp Content -->
-  <div class="row margin-bottom-120">
+  <div class="row margin-bottom-30">
     
     <div class="controls text-center">
+      <h1>THE INDUSTRY’S MOST POWERFUL &amp; DURABLE SEWER TOOLS</h1>
+<!--
       <label>Filter for:</label>
       <button class="filter" data-filter="all">All</button>
       <button class="filter" data-filter=".classic">Classic</button>
@@ -34,423 +135,262 @@ landing: yes
       <button class="filter" data-filter=".hydro-x">Hydro-Excavation</button>
       <button class="filter" data-filter=".accessories">Accessories</button>
       <a href="#" data-featherlight="#search-box"><img src="/assets/img/icon_search_lg.png" alt="Search" style="width:20px; margin-left:15px;" /></a>
-      
+
       <div class="lightbox" id="search-box">
         <form action="search">
           <input type="text" name="q" id="tipue_search_input" autocomplete="off" placeholder="What are we looking for?">
         </form>
       </div>
-    </div>
-    
-    <div class="row">
-      <div class="container">
-        <a href="/warthog-dealers" style="color: #d51c28; text-shadow: -1px -1px 1px rgba(0,0,0,.1), 1px 1px 1px rgba(0,0,0,.1);"><h2 style="font-weight: 800; padding-left: 40px;"><i class="fa fa-map"></i> Find a Dealer</h2></a>
-      </div>
-    </div>
-      
-      <!-- product list -->
-    <div class="row">
-      <div id="SWContainer" class="container directory sewer">
-        
-        <div class="mix lg switcher" data-name="wgr-switcher">
-          <a href="/wgr-switcher" class="search-text">
-            <img src="/assets/img/product/switcher-03.jpg" class="img-responsive" />
-            <h3>WGR Switcher</h3>
-            <h5>Switch between pulling and cleaning functions</h5>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th>Pipe Size</th>
-                  <td>8-48 in. &nbsp;<span class="metric">203-1219 mm</span></td>
-                </tr>
-                <tr>
-                  <th>Inlet</th>
-                  <td>1 NPT or BSPP,<br>1 1/4 NPT or BSPP</td>
-                </tr>
-              </tbody>
-            </table>
-            <button>View Details</button>
-          </a>
-        </div>
-        
-        <div class="mix md switcher" data-name="whr-switcher">
-          <a href="/whr-switcher" class="search-text">
-            <img src="/assets/img/product/whr-switcher-05.jpg" class="img-responsive" />
-            <h3>WHR Switcher</h3>
-            <h5>Switch between pulling and cleaning functions</h5>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th>Pipe Size</th>
-                  <td>6-18 in. &nbsp;<span class="metric">152-457 mm</span></td>
-                </tr>
-                <tr>
-                  <th>Inlet</th>
-                  <td>1/2 NPT or BSPP,<br>3/4 NPT or BSPP</td>
-                </tr>
-              </tbody>
-            </table>
-            <button>View Details</button>
-          </a>
-        </div>
-        
-        <div class="mix md switcher" data-name="whr-hybrid-switcher">
-          <a href="/whr-hybrid-switcher" class="search-text">
-            <img src="/assets/img/product/whr-hybrid-switcher-03.jpg" class="img-responsive" />
-            <h3>WHR Hybrid Switcher</h3>
-            <h5>Switch between pulling and cleaning functions - Specialized for hilly terrain</h5>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th>Pipe Size</th>
-                  <td>6-18 in. &nbsp;<span class="metric">152-457 mm</span></td>
-                </tr>
-                <tr>
-                  <th>Inlet</th>
-                  <td>3/4 NPT or BSPP</td>
-                </tr>
-              </tbody>
-            </table>
-            <button>View Details</button>
-          </a>
-        </div>
-        
-        <div class="mix lg magnum" data-name="wgr-magnum">
-          <a href="/wgr-magnum" class="search-text">
-            <img src="/assets/img/product/wgr-02.jpg" class="img-responsive" />
-            <h3>WGR Magnum</h3>
-            <h5>Extended durability and less maintenance</h5>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th>Pipe Size</th>
-                  <td>8-36 in. &nbsp;<span class="metric">203-914 mm</span></td>
-                </tr>
-                <tr>
-                  <th>Inlet</th>
-                  <td>1 NPT or BSPP</td>
-                </tr>
-              </tbody>
-            </table>
-            <button>View Details</button>
-          </a>
-        </div>
-        
-        <div class="mix lg magnum" data-name="wgr-magnum-125">
-          <a href="/wgr-magnum-125" class="search-text">
-            <img src="/assets/img/product/wgr-125-02.jpg" class="img-responsive" />
-            <h3>WGR 1-1/4 Magnum</h3>
-            <h5>Extended durability with higher flows</h5>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th>Pipe Size</th>
-                  <td>8-36 in. &nbsp;<span class="metric">203-914 mm</span></td>
-                </tr>
-                <tr>
-                  <th>Inlet</th>
-                  <td>1 1/4 NPT or BSPP</td>
-                </tr>
-              </tbody>
-            </table>
-            <button>View Details</button>
-          </a>
-        </div>
-        
-        <div class="mix lg classic" data-name="wg-1">
-          <a href="/wg" class="search-text">
-            <img src="/assets/img/product/wg-02.jpg" class="img-responsive" />
-            <h3>WG-1</h3>
-            <h5>Proven choice for municipal jetting</h5>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th>Pipe Size</th>
-                  <td>8-36 in. &nbsp;<span class="metric">203-914 mm</span></td>
-                </tr>
-                <tr>
-                  <th>Inlet</th>
-                  <td>1 NPT or BSPP</td>
-                </tr>
-              </tbody>
-            </table>
-            <button>View Details</button>
-          </a>
-        </div>
-        
-        <div class="mix lg classic" data-name="wgp-1">
-          <a href="/wgp" class="search-text">
-            <img src="/assets/img/product/wgp-02.jpg" class="img-responsive" />
-            <h3>WGP-1</h3>
-            <h5>Up to 40% more pulling power</h5>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th>Pipe Size</th>
-                  <td>8-18 in. &nbsp;<span class="metric">203-457 mm</span></td>
-                </tr>
-                <tr>
-                  <th>Inlet</th>
-                  <td>1 NPT or BSPP</td>
-                </tr>
-              </tbody>
-            </table>
-            <button>View Details</button>
-          </a>
-        </div>
-        
-        <div class="mix lg classic" data-name="wd">
-          <a href="/wd" class="search-text">
-            <img src="/assets/img/product/wd-02.jpg" class="img-responsive" />
-            <h3>WD 1-1/4</h3>
-            <h5>Effectively distributes more flow</h5>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th>Pipe Size</th>
-                  <td>8-36 in. &nbsp;<span class="metric">203-914 mm</span></td>
-                </tr>
-                <tr>
-                  <th>Inlet</th>
-                  <td>1-1/4 NPT or BSPP</td>
-                </tr>
-              </tbody>
-            </table>
-            <button>View Details</button>
-          </a>
-        </div>
-        
-        <div class="mix md magnum" data-name="whr">
-          <a href="/whr-magnum" class="search-text">
-            <img src="/assets/img/product/whr-02.jpg" class="img-responsive" />
-            <h3>WHR Magnum</h3>
-            <h5>Proven reliability for mid-size lines</h5>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th>Pipe Size</th>
-                  <td>6-18 in. &nbsp;<span class="metric">152-457 mm</span></td>
-                </tr>
-                <tr>
-                  <th>Inlet</th>
-                  <td>1/2 NPT or BSPP,<br>3/4 NPT or BSPP</td>
-                </tr>
-              </tbody>
-            </table>
-            <button>View Details</button>
-          </a>
-        </div>
-        
-        <div class="mix md classic" data-name="wh">
-          <a href="/wh" class="search-text">
-            <img src="/assets/img/product/wh-02.jpg" class="img-responsive" />
-            <h3>WH-1/2 &amp; WH-3/4</h3>
-            <h5>Proven effectiveness for mid-size lines</h5>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th>Pipe Size</th>
-                  <td>6-18 in. &nbsp;<span class="metric">152-457 mm</span></td>
-                </tr>
-                <tr>
-                  <th>Inlet</th>
-                  <td>1/2 NPT or BSPP,<br>3/4 NPT or BSPP</td>
-                </tr>
-              </tbody>
-            </table>
-            <button>View Details</button>
-          </a>
-        </div>
-        
-        <div class="mix md classic" data-name="whp">
-          <a href="/whp" class="search-text">
-            <img src="/assets/img/product/whp-02.jpg" class="img-responsive" />
-            <h3>WHP-3/4</h3>
-            <h5>More pulling power for mid-size lines</h5>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th>Pipe Size</th>
-                  <td>6-18 in. &nbsp;<span class="metric">152-457 mm</span></td>
-                </tr>
-                <tr>
-                  <th>Inlet</th>
-                  <td>3/4 NPT or BSPP</td>
-                </tr>
-              </tbody>
-            </table>
-            <button>View Details</button>
-          </a>
-        </div>
-        
-        <div class="mix sm classic" data-name="wv">
-          <a href="/wv" class="search-text">
-            <img src="/assets/img/product/wv-02.jpg" class="img-responsive" />
-            <h3>WV-1/4</h3>
-            <h5>High speed rotation for cleaning around elbows</h5>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th>Pipe Size</th>
-                  <td>2-4 in. &nbsp;<span class="metric">51-102 mm</span></td>
-                </tr>
-                <tr>
-                  <th>Inlet</th>
-                  <td>1/4 NPT or BSPP</td>
-                </tr>
-              </tbody>
-            </table>
-            <button>View Details</button>
-          </a>
-        </div>
-        
-        <div class="mix sm classic" data-name="ws">
-          <a href="/ws" class="search-text">
-            <img src="/assets/img/product/ws-02.jpg" class="img-responsive" />
-            <h3>WS-1/2</h3>
-            <h5>Commercial and residential applications</h5>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th>Pipe Size</th>
-                  <td>4-8 in. &nbsp;<span class="metric">102-204 mm</span></td>
-                </tr>
-                <tr>
-                  <th>Inlet</th>
-                  <td>1/2 NPT or BSPP</td>
-                </tr>
-              </tbody>
-            </table>
-            <button>View Details</button>
-          </a>
-        </div>
-        
-        <div class="mix sm classic" data-name="wt">
-          <a href="/wt" class="search-text">
-            <img src="/assets/img/product/wt-02-new-inlet.jpg" class="img-responsive" />
-            <h3>WT-3/8-C &amp; WT-1/2</h3>
-            <h5>Negotiates elbows and laterals</h5>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th>Pipe Size</th>
-                  <td>3-6 in. &nbsp;<span class="metric">76-152 mm</span></td>
-                </tr>
-                <tr>
-                  <th>Inlet</th>
-                  <td>3/8 NPT or BSPP, 1/2 NPT or BSPP</td>
-                </tr>
-              </tbody>
-            </table>
-            <button>View Details</button>
-          </a>
-        </div>
-        
-        <div class="mix hydro-x" data-name="hydro-x-fixed">
-          <a href="/fixed-hydro-x" class="search-text">
-            <img src="/assets/img/product/hx-06.jpg" class="img-responsive" />
-            <h3>Hydro-X</h3>
-            <h5>Water-powered excavation nozzles</h5>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th colspan="2" style="text-align:center;">Safe alternative for providing access to buried utilities</th>
-                </tr>
-                <tr>
-                  <th>Maximum Pressure</th>
-                  <td>5K psi<br><span class="metric">350 bar</span></td>
-                </tr>
-              </tbody>
-            </table>
-            <button>View Details</button>
-          </a>
-        </div>
-        
-<!--
-        <div class="mix hydro-x" data-name="hydro-x-rotary">
-          <a href="/rotary-hydro-x" class="search-text">
-            <img src="/assets/img/product/hx-11.jpg" class="img-responsive" />
-            <h3>Rotary Hydro-X</h3>
-            <h5>Water-powered excavation nozzles</h5>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th colspan="2" style="text-align:center;">Rotating jet pattern decreases jet dwell time for safer digging</th>
-                </tr>
-                <tr>
-                  <th>Maximum Pressure</th>
-                  <td>5K psi<br><span class="metric">350 bar</span></td>
-                </tr>
-              </tbody>
-            </table>
-            <button>View Details</button>
-          </a>
-        </div>
 -->
-        
-        <div class="mix accessories" data-name="manhole">
-          <a href="/manhole-cleaner" class="search-text">
-            <img src="/assets/img/product/manhole-cleaner-02.jpg" class="img-responsive" />
-            <h3>Manhole Cleaners</h3>
-            <h5>Safe and effective</h5>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th colspan="2" style="text-align:center;">Turn your Warthog pipe cleaning tool into a safe and effective manhole cleaner</th>
-                </tr>
-              </tbody>
-            </table>
-            <button>View Details</button>
-          </a>
-        </div>
-        
-        <div class="mix accessories" data-name="centralizers">
-          <a href="/warthog-centralizers" class="search-text">
-            <img src="/assets/img/product/warthog-wheeled-centralizer-02.jpg" class="img-responsive" />
-            <h3>Centralizers</h3>
-            <h5>Maximize cleaning effectiveness</h5>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th colspan="2" style="text-align:center;">Balances jet standoff distance and helps to protect the tool in the pipe</th>
-                </tr>
-                <tr>
-                  <td colspan="2" style="text-align:center;">Several options available</td>
-                </tr>
-              </tbody>
-            </table>
-            <button>View Details</button>
-          </a>
-        </div>
-        
-        <div class="mix accessories" data-name="descalers">
-          <a href="/warthog-descalers" class="search-text">
-            <img src="/assets/img/product/wgp-descaler-01.jpg" class="img-responsive" />
-            <h3>Descaling Heads</h3>
-            <h5>Optimize jetting power</h5>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <th colspan="2" style="text-align:center;">Optimized jet pattern for polishing and descaling</th>
-                </tr>
-                <tr>
-                  <td colspan="2" style="text-align:center;">Available for multiple inlets</td>
-                </tr>
-              </tbody>
-            </table>
-            <button>View Details</button>
-          </a>
-        </div>
-
-        <div class="gap"></div>
-        <div class="gap"></div>
-        <div class="gap"></div>
-      </div>
     </div>
-    <!-- end product list -->
   </div>
-  <div class="clearfix"></div>
-  <!-- End MixItUp Content -->
 </section>
 
-{% include footer-cta.html %}
+<section class="container padding-tb-30 margin-bottom-30">
+  <div class="row">
+    <div class="col-sm-3 pull-right">
+      <a href="/warthog-dealers" style="color: #d51c28; text-shadow: -1px -1px 1px rgba(0,0,0,.1), 1px 1px 1px rgba(0,0,0,.1);"><h2 style="font-weight: 800; padding-bottom: 10px; text-align: right;"><i class="fa fa-map"></i> Find a Dealer</h2></a>
+    </div>
+    <div class="col-sm-3 pull-left info-table-filter">
+      <div class="input-group"> 
+        <span class="input-group-addon">Filter:</span>
+        <input id="filter" type="text" class="form-control">
+      </div>
+    </div>
+  </div>
+  <table class="table info-table table-hover table-bordered table-condensed">
+    <thead>
+      <tr>
+        <td colspan="7" style="background: #444; color: #eee;"><h2 style="font-weight: 800; padding-left: 20px;">Magnum Series</h2></td>
+      </tr>
+      <tr class="col-headings">
+        <th> </th>
+        <th>Nozzle</th>
+        <th>Pipe Size</th>
+        <th>Inlet Size</th>
+        <th>Flow</th>
+        <th>Pressure</th>
+      </tr>
+    </thead>
+    <tbody class="searchable">
+      <tr>
+        <td style="text-align: center;"><a href="/whr-magnum"><img src="/assets/img/product/small-whr-01.png" alt="Warthog WHR Magnum Sewer Nozzle"></a></td>
+        <td style="font-weight:bold;"><a href="/whr-magnum">WHR</a></td>
+        <td><a href="/whr-magnum">6-18”<br>152-457 mm</a></td>
+        <td><a href="/whr-magnum">1” NPT or BSPP</a></td>
+        <td><a href="/whr-magnum">50-80 gpm<br>189-303 lpm</a></td>
+        <td><a href="/whr-magnum">1200-5K psi<br>83-345 bar</a></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;"><a href="/wgr-magnum"><img src="/assets/img/product/small-wgr-01.png" alt="Warthog WGR Magnum Sewer Nozzle"></a></td>
+        <td style="font-weight:bold;"><a href="/wgr-magnum">WGR</a></td>
+        <td><a href="/wgr-magnum">8-36”<br>152-457 mm</a></td>
+        <td><a href="/wgr-magnum">1/2", 3/4” NPT or BSPP</a></td>
+        <td><a href="/wgr-magnum">14-50 gpm<br>53-189 lpm</a></td>
+        <td><a href="/wgr-magnum">1200-8K psi<br>83-552 bar</a></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;"><a href="/wgr-magnum-125"><img src="/assets/img/product/small-wgr-125-01.png" alt="Warthog WGR 1.25 Magnum Sewer Nozzle"></a></td>
+        <td style="font-weight:bold;"><a href="/wgr-magnum-125">WGR 1-1/4</a></td>
+        <td><a href="/wgr-magnum-125">8-48”<br>203-1219 mm</a></td>
+        <td><a href="/wgr-magnum-125">1-1/4” NPT or BSPP</a></td>
+        <td><a href="/wgr-magnum-125">80-120 gpm<br>303-454 lpm</a></td>
+        <td><a href="/wgr-magnum-125">1200-5K psi<br>83-345 bar</a></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <table class="table info-table table-hover table-bordered table-condensed">
+    <thead>
+      <tr>
+        <td colspan="7" style="background: #444; color: #eee;"><h2 style="font-weight: 800; padding-left: 20px;">Switcher Series</h2></td>
+      </tr>
+      <tr class="col-headings">
+        <th> </th>
+        <th>Nozzle</th>
+        <th>Pipe Size</th>
+        <th>Inlet Size</th>
+        <th>Flow</th>
+        <th>Pressure</th>
+      </tr>
+    </thead>
+    <tbody class="searchable">
+      <tr>
+        <td style="text-align: center;"><a href="/whr-switcher"><img src="/assets/img/product/small-whr-switcher-01.png" alt="Warthog WHR Switcher Sewer Nozzle"></a></td>
+        <td style="font-weight:bold;"><a href="/whr-switcher">WHR-SWT</a></td>
+        <td><a href="/whr-switcher">6-18”<br>152-457 mm</a></td>
+        <td><a href="/whr-switcher">1/2, 3/4” NPT or BSPP</a></td>
+        <td><a href="/whr-switcher">14-45 gpm<br>53-170 lpm</a></td>
+        <td><a href="/whr-switcher">1200-8K psi<br>83-552 bar</a></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;"><a href="/whr-hybrid-switcher"><img src="/assets/img/product/small-whr-hybrid-switcher-01.png" alt="Warthog WHR Hybrid Switcher Sewer Nozzle"></a></td>
+        <td style="font-weight:bold;"><a href="/whr-hybrid-switcher">WHR-HYBRID-SWT</a></td>
+        <td><a href="/whr-hybrid-switcher">6-18”<br>152-457 mm</a></td>
+        <td><a href="/whr-hybrid-switcher">3/4” NPT or BSPP</a></td>
+        <td><a href="/whr-hybrid-switcher">30-50 gpm<br>114-189 lpm</a></td>
+        <td><a href="/whr-hybrid-switcher">1200-5K psi<br>83-345 bar</a></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;"><a href="/wgr-switcher"><img src="/assets/img/product/small-wgr-switcher-01.png" alt="Warthog WGR Switcher Sewer Nozzle"></a></td>
+        <td style="font-weight:bold;"><a href="/wgr-switcher">WGR-SWT</a></td>
+        <td><a href="/wgr-switcher">8-36”<br>203-914 mm</a></td>
+        <td><a href="/wgr-switcher">1” NPT or BSPP</a></td>
+        <td><a href="/wgr-switcher">50-80 gpm<br>189-303 lpm</a></td>
+        <td><a href="/wgr-switcher">1200-5K psi<br>83-345 bar</a></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;"><a href="/wgr-switcher-125"><img src="/assets/img/product/small-wgr-switcher-01.png" alt="Warthog WGR 1-1/4 Switcher Sewer Nozzle"></a></td>
+        <td style="font-weight:bold;"><a href="/wgr-switcher-125">WGR-1-1/4-SWT</a></td>
+        <td><a href="/wgr-switcher-125">8-48”<br>203-1219 mm</a></td>
+        <td><a href="/wgr-switcher-125">1-1/4” NPT or BSPP</a></td>
+        <td><a href="/wgr-switcher-125">80-120 gpm<br>303-454 lpm</a></td>
+        <td><a href="/wgr-switcher-125">1200-5K psi<br>83-345 bar</a></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <table class="table info-table table-hover table-bordered table-condensed">
+    <thead>
+      <tr>
+        <td colspan="7" style="background: #444; color: #eee;"><h2 style="font-weight: 800; padding-left: 20px;">Classic Series</h2></td>
+      </tr>
+      <tr class="col-headings">
+        <th> </th>
+        <th>Nozzle</th>
+        <th>Pipe Size</th>
+        <th>Inlet Size</th>
+        <th>Flow</th>
+        <th>Pressure</th>
+      </tr>
+    </thead>
+    <tbody class="searchable">
+      <tr>
+        <td style="text-align: center;"><a href="/wv"><img src="/assets/img/product/small-wv-01.png" alt="Warthog WV Sewer Nozzle"></a></td>
+        <td style="font-weight:bold;"><a href="/wv">WV</a></td>
+        <td><a href="/wv">2-4”<br>51-102 mm</a></td>
+        <td><a href="/wv">1/4” NPT or BSPP</a></td>
+        <td><a href="/wv">3-8 gpm<br>11-30 lpm</a></td>
+        <td><a href="/wv">1200-5K psi<br>83-345 bar</a></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;"><a href="/wt"><img src="/assets/img/product/small-wt-01.png" alt="Warthog WT Sewer Nozzle"></a></td>
+        <td style="font-weight:bold;"><a href="/wt">WT</a></td>
+        <td><a href="/wt">3-6”<br>76-152 mm</a></td>
+        <td><a href="/wt">3/8” NPT or BSPP</a></td>
+        <td><a href="/wt">5-12 gpm<br>19-45 lpm</a></td>
+        <td><a href="/wt">1200-5K psi<br>83-345 bar</a></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;"><a href="/wt"><img src="/assets/img/product/small-wt-01.png" alt="Warthog WT 1/2 Sewer Nozzle"></a></td>
+        <td style="font-weight:bold;"><a href="/wt">WT-1/2</a></td>
+        <td><a href="/wt">3-6”<br>76-152 mm</a></td>
+        <td><a href="/wt">1/2” NPT or BSPP</a></td>
+        <td><a href="/wt">5-21 gpm<br>19-79 lpm</a></td>
+        <td><a href="/wt">1200-5K psi<br>83-345 bar</a></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;"><a href="/ws"><img src="/assets/img/product/small-ws-01.png" alt="Warthog WS Sewer Nozzle"></a></td>
+        <td style="font-weight:bold;"><a href="/ws">WS</a></td>
+        <td><a href="/ws">4-8”<br>102-203 mm</a></td>
+        <td><a href="/ws">1/2” NPT or BSPP</a></td>
+        <td><a href="/ws">80-20 gpm<br>30-76 lpm</a></td>
+        <td><a href="/ws">1200-5K psi<br>83-345 bar</a></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;"><a href="/wh"><img src="/assets/img/product/small-wh-01.png" alt="Warthog WH Sewer Nozzle"></a></td>
+        <td style="font-weight:bold;"><a href="/wh">WH</a></td>
+        <td><a href="/wh">6-18”<br>203-1219 mm</a></td>
+        <td><a href="/wh">1/2", 3/4" NPT or BSPP</a></td>
+        <td><a href="/wh">10-50 gpm<br>38-189 lpm</a></td>
+        <td><a href="/wh">1200-8K psi<br>83-552 bar</a></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;"><a href="/whp"><img src="/assets/img/product/small-whp-01.png" alt="Warthog WH Puller Sewer Nozzle"></a></td>
+        <td style="font-weight:bold;"><a href="/whp">WH-P</a></td>
+        <td><a href="/whp">6-18”<br>203-1219 mm</a></td>
+        <td><a href="/whp">3/4" NPT or BSPP</a></td>
+        <td><a href="/whp">15-50 gpm<br>57-189 lpm</a></td>
+        <td><a href="/whp">1200-8K psi<br>83-552 bar</a></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;"><a href="/wg"><img src="/assets/img/product/small-wg-01.png" alt="Warthog WG Sewer Nozzle"></a></td>
+        <td style="font-weight:bold;"><a href="/wg">WG</a></td>
+        <td><a href="/wg">8-36”<br>203-914 mm</a></td>
+        <td><a href="/wg">1” NPT or BSPP</a></td>
+        <td><a href="/wg">50-80 gpm<br>189-303 lpm</a></td>
+        <td><a href="/wg">1200-5K psi<br>83-345 bar</a></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;"><a href="/wgp"><img src="/assets/img/product/small-wgp-01.png" alt="Warthog WG Puller Sewer Nozzle"></a></td>
+        <td style="font-weight:bold;"><a href="/wgp">WG-P</a></td>
+        <td><a href="/wgp">8-36”<br>203-914 mm</a></td>
+        <td><a href="/wgp">1” NPT or BSPP</a></td>
+        <td><a href="/wgp">50-80 gpm<br>189-303 lpm</a></td>
+        <td><a href="/wgp">1200-5K psi<br>83-345 bar</a></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;"><a href="/wd"><img src="/assets/img/product/small-wd-01.png" alt="Warthog WD Sewer Nozzle"></a></td>
+        <td style="font-weight:bold;"><a href="/wd">WD</a></td>
+        <td><a href="/wd">8-36”<br>203-914 mm</a></td>
+        <td><a href="/wd">1-1/4” NPT or BSPP</a></td>
+        <td><a href="/wd">80-120 gpm<br>303-454 lpm</a></td>
+        <td><a href="/wd">1200-5K psi<br>83-345 bar</a></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <table class="table info-table table-hover table-bordered table-condensed hx">
+    <thead>
+      <tr>
+        <td colspan="7" style="background: #444; color: #eee;"><h2 style="font-weight: 800; padding-left: 20px;">Hydro Excavation</h2></td>
+      </tr>
+      <tr class="col-headings">
+        <th> </th>
+        <th>Nozzle</th>
+        <th>Inlet Size</th>
+        <th>Flow</th>
+        <th>Pressure</th>
+      </tr>
+    </thead>
+    <tbody class="searchable">
+      <tr>
+        <td style="text-align: center;"><a href="/fixed-hydro-x"><img src="/assets/img/product/small-hx-01.png" alt="Hydroexcavation nozzles"></a></td>
+        <td style="font-weight:bold;"><a href="/fixed-hydro-x">Hydro-X</a></td>
+        <td><a href="/fixed-hydro-x">1/2” NPT or BSPP</a></td>
+        <td><a href="/fixed-hydro-x">Up to 15 gpm/57 lpm</a></td>
+        <td><a href="/fixed-hydro-x">Up to 5K psi/345 bar</a></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <table class="table info-table table-hover table-bordered table-condensed accessories">
+    <thead>
+      <tr>
+        <td colspan="7" style="background: #444; color: #eee;"><h2 style="font-weight: 800; padding-left: 20px;">Accessories</h2></td>
+      </tr>
+      <tr class="col-headings">
+        <th> </th>
+        <th>Product</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody class="searchable">
+      <tr>
+        <td style="text-align: center;"><a href="/warthog-descalers"><img src="/assets/img/product/small-descaler-02.png" alt="Warthog Descaling Heads"></a></td>
+        <td style="font-weight:bold;"><a href="/warthog-descalers">Descaling Heads</a></td>
+        <td><a href="/warthog-descalers">Optimized jet pattern for polishing and descaling</a></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;"><a href="/warthog-centralizers"><img src="/assets/img/product/small-centralizer-02.png" alt="Warthog Centralizers"></a></td>
+        <td style="font-weight:bold;"><a href="/warthog-centralizers">Centralizers</a></td>
+        <td><a href="/warthog-centralizers">Balances jet standoff distance and helps to protect the tool in the pipe</a></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;"><a href="/manhole-cleaner"><img src="/assets/img/product/small-manhole-cleaner-01.png" alt="Warthog Manhole Cleaner"></a></td>
+        <td style="font-weight:bold;"><a href="/manhole-cleaner">Manhole Cleaner</a></td>
+        <td><a href="/manhole-cleaner">Turn your Warthog pipe cleaning tool into a safe and effective manhole cleaner</a></td>
+      </tr>
+    </tbody>
+  </table>
+</section>

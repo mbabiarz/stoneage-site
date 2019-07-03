@@ -725,6 +725,15 @@ aside.cta a {
 .wb-controls a.btn:hover, .landing .controls.home-filter a.btn:hover {
   background: #9c8061;
 }
+.landing.warthog .controls {
+    padding: 1.2%;
+    background: #000;
+    color: #fff;
+}
+.landing.warthog .controls h1 {
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
 .directory {
   padding: 2% 2% 0;
   text-align: justify;
@@ -1571,6 +1580,7 @@ footer .footer-logo {
   border-top: 1px solid #181818;
   font-size: 11px;
   padding-top: 4px;
+  padding-bottom: 15px;
 }
 .copyright a {
   padding-left: 4px;
