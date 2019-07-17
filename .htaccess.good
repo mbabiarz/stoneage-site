@@ -1,0 +1,30 @@
+Options +MultiViews
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://stoneagetools.com [L,R=301]
+
+# protect .htaccess
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+	Order allow,deny
+	Deny from all
+	Satisfy all
+</Files>
+
+# turn off directory browsing
+IndexIgnore *
+
+# show custom error pages for these HTTP statuses
+ErrorDocument 404 /404.html
+
+Redirect 301 /careers /jobs
+Redirect 301 /prodrive /abx-pro
+Redirect 301 /autopack http://info.stoneagetools.com/autopack
+Redirect 301 /hydro-x /rotary-hydro-x
+Redirect 301 /switcher /wgr-switcher
+Redirect 301 /rotary-swivels /waterblast-tools-automated-equipment
+Redirect 301 /news http://news.stoneagetools.com/
+Redirect 301 /custom-solutions /solutions
+Redirect 301 /onestopshop https://info.stoneagetools.com/one-stop-shop
+
+Redirect 302 /rotary-hydro-x /fixed-hydro-x
+Redirect 302 /warthog-dealers https://www.stoneagetools.com/contact#sewer-tab
