@@ -11,6 +11,9 @@
   #homeslider .feature-img {
     width: 700px;
   }
+  #homeslider .feature-img-sm {
+    width: 600px;
+  }
 }
 @media screen and (max-width: 1212px) {
   .home-slider .indicator-panel {
@@ -21,6 +24,9 @@
   }
   #homeslider .feature-img {
     width: 500px;
+  }
+  #homeslider .feature-img-sm {
+    width: 400px;
   }
 }
 
@@ -47,6 +53,9 @@
   }
   #homeslider .feature-img {
     width: 400px;
+  }
+  #homeslider .feature-img-sm {
+    width: 300px;
   }
 }
 
@@ -93,6 +102,9 @@
   }
   #homeslider .feature-img {
     width: 320px;
+  }
+  #homeslider .feature-img-sm {
+    width: 200px;
   }
   
   /* Landing pages */
@@ -191,6 +203,9 @@
   }
   #homeslider .feature-img {
     width: 220px;
+  }
+  #homeslider .feature-img-sm {
+    width: 180px;
   }
 }
 
