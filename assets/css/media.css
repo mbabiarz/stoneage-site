@@ -57,6 +57,8 @@
   #homeslider .feature-img-sm {
     width: 300px;
   }
+  .nav-tabs>li {
+    width: 95%;
 }
 
 @media screen and (max-width: 768px) {
@@ -143,10 +145,10 @@
   .indicator-panel {
     display: none;
   }
-  .landing .controls.home-filter ul {
+  .landing .controls.home-filter ul, .wb-controls.home-filter ul {
   display: none;
   }
-  .landing .controls.home-filter select {
+  .landing .controls.home-filter select, .wb-controls.home-filter select {
   display: inline-block;
   }
   .training.landing .heading-img {

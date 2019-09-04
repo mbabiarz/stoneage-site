@@ -52,18 +52,35 @@
   
   <!-- WB Applications Filter -->
   <div class="row">
-    <div class="wb-controls text-center">
-      <label>Filter for:</label>
-      <a href="#exchanger" class="btn">Exchangers</a>
-      <a href="#pipe" class="btn">Pipes/Drains</a>
-      <a href="#surface" class="btn">Surfaces</a>
-      <a href="#tank" class="btn">Tanks/Vessels</a>
-      <a href="#boiler" class="btn">Boilers/Furnaces</a>
-<!--      <a href="#concrete" class="btn">Concrete</a>-->
-      <a href="#tools" class="btn">Rotary Tools/Nozzles</a>
-      <a href="#swivels" class="btn">Swivels</a>
-      <a href="#accessories" class="btn">Accessories</a>
-      <a href="#" data-featherlight="#search-box"><img src="/assets/img/icon_search_lg.png" alt="Search" style="width:20px; margin-left:15px;" /></a>
+    <div class="wb-controls home-filter text-center">
+      Filter for:
+      <ul class="list-unstyled list-inline">
+        <li><a href="#exchanger" class="btn">Exchangers</a></li>
+        <li><a href="#pipe" class="btn">Pipes/Drains</a></li>
+        <li><a href="#surface" class="btn">Surfaces</a></li>
+        <li><a href="#tank" class="btn">Tanks/Vessels</a></li>
+        <li><a href="#boiler" class="btn">Boilers/Furnaces</a></li>
+        <li><a href="#tools" class="btn">Rotary Tools/Nozzles</a></li>
+        <li><a href="#swivels" class="btn">Swivels</a></li>
+        <li><a href="#accessories" class="btn">Accessories</a></li>
+        <li><a href="#" data-featherlight="#search-box"><img src="/assets/img/icon_search_lg.png" alt="Search" style="width:20px; margin-left:15px;" /></a></li>
+      </ul>
+      <!-- Mobile version -->
+      <select class="wb-controls-mobile text-center" onchange="this.form.submit()">
+        <label>Filter for:</label>
+        <option value="/">Select</option>
+        <option value="#exchanger">Exchangers</option>
+        <option value="#pipe">Pipes/Drains</option>
+        <option value="#surface">Surfaces</option>
+        <option value="#tank">Tanks/Vessels</option>
+        <option value="#boiler">Boilers/Furnaces</option>
+        <option value="#tools">Rotary Tools/Nozzles</option>
+        <option value="#swivels">Swivels</option>
+        <option value="#accessories">Accessories</option>
+      </select>
+      
+      
+      
       
       <div class="lightbox" id="search-box">
         <form action="search">
