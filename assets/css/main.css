@@ -509,7 +509,7 @@ textarea#message-4ebf2c10-379c-4fc6-92f0-c8b9f82d93e7 {
 .landing .controls.home-filter .list-inline>li {
     padding:0;
 }
-.landing .controls.home-filter select {
+.landing .controls.home-filter select, .wb-controls.home-filter select {
   display: none;
   color: #444;
   min-width:300px;
@@ -697,7 +697,7 @@ aside.cta a {
   padding: 15px 0;
 }
 .wb-controls {
-  padding: 1.7%;
+  padding: .75%;
   background: #424242;
   color: #eee;
 }

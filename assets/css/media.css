@@ -57,8 +57,9 @@
   #homeslider .feature-img-sm {
     width: 300px;
   }
-  .nav-tabs>li {
+  .contact-nav .nav-tabs>li {
     width: 95%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -205,9 +206,6 @@
   }
   #homeslider .feature-img {
     width: 220px;
-  }
-  #homeslider .feature-img-sm {
-    width: 180px;
   }
 }
 
