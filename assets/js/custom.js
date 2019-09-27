@@ -99,35 +99,35 @@ $(document).ready(function(){
   
 
 //***** Animate home page CTA's *****//
-var pointsArray = document.getElementsByClassName("point");
+//var pointsArray = document.getElementsByClassName("point");
 
-var animatePoints = function(points) {
+//var animatePoints = function(points) {
   
-  var revealPoints = function(index) {
-    points[index].style.opacity = 1;
-    points[index].style.transform = "translateX(0)";
-    points[index].style.msTransform = "translateX(0)";
-    points[index].style.WebkitTransform = "tanslateX(0)";
-  };
-  
-  for (var i = 0; i < points.length; i++) {
-    revealPoints(i);
-  }
-};
-window.onload = function() {
-  // Automatically animate on tall screens
-  if (window.innerHeight > 750) {
-    animatePoints(pointsArray);
-  }
-  // Animate on scroll
-  var sellingPoints = document.getElementsByClassName('cta')[0];
-  var scrollDistance = sellingPoints.getBoundingClientRect().top -window.innerHeight + 50;
-  window.addEventListener('scroll', function(event) {
-    if (document.body.scrollTop >= scrollDistance) {
-      animatePoints(pointsArray);
-    }
-  });
-}
+//  var revealPoints = function(index) {
+//    points[index].style.opacity = 1;
+//    points[index].style.transform = "translateX(0)";
+//    points[index].style.msTransform = "translateX(0)";
+//    points[index].style.WebkitTransform = "tanslateX(0)";
+//  };
+//  
+//  for (var i = 0; i < points.length; i++) {
+//    revealPoints(i);
+//  }
+//};
+//window.onload = function() {
+//  // Automatically animate on tall screens
+//  if (window.innerHeight > 750) {
+//    animatePoints(pointsArray);
+//  }
+//  // Animate on scroll
+//  var sellingPoints = document.getElementsByClassName('cta')[0];
+//  var scrollDistance = sellingPoints.getBoundingClientRect().top -window.innerHeight + 50;
+//  window.addEventListener('scroll', function(event) {
+//    if (document.body.scrollTop >= scrollDistance) {
+//      animatePoints(pointsArray);
+//    }
+//  });
+//}
 
 //***** Tipue Search *****//
 $(document).ready(function() {
