@@ -1,8 +1,7 @@
+Options +MultiViews
 RewriteEngine On
 RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://stoneagetools.com/$1 [L,R=301]
-
-Options +MultiViews
+RewriteRule ^(.*)$ https://stoneagetools.com [L,R=301]
 
 # protect .htaccess
 <Files ~ "^.*\.([Hh][Tt][Aa])">
@@ -22,9 +21,9 @@ Redirect 301 /prodrive /abx-pro
 Redirect 301 /hydro-x /rotary-hydro-x
 Redirect 301 /switcher /wgr-switcher
 Redirect 301 /rotary-swivels /waterblast-tools-automated-equipment
-Redirect 301 /news https://news.stoneagetools.com
+Redirect 301 /news http://news.stoneagetools.com/
 Redirect 301 /custom-solutions /solutions
-Redirect 301 /one-stop-shop https://info.stoneagetools.com/one-stop-shop
+Redirect 301 /onestopshop https://info.stoneagetools.com/one-stop-shop
 
 Redirect 302 /rotary-hydro-x /fixed-hydro-x
 Redirect 302 /warthog-dealers https://www.stoneagetools.com/contact#sewer-tab
