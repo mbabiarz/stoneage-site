@@ -1671,6 +1671,11 @@ li.whr-item>h3>a:before {
   margin-top: 0 !important;
 }
 
+/**** Podcast ****/
+.podcast-listing {
+  padding: 15px 0;
+}
+
 /**** style guide ****/
 .style-grid {
   height:180px;
