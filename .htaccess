@@ -27,6 +27,7 @@ Redirect 301 /onestopshop https://info.stoneagetools.com/one-stop-shop
 Redirect 301 /autopack-2l /autopack-2l-b
 Redirect 301 /autopack-lwp /autopack-prop
 Redirect 301 /autopack-pro /autopack-prop
+Redirect 301 /torus-booms /simple-boom
 
 Redirect 302 /rotary-hydro-x /fixed-hydro-x
 Redirect 302 /warthog-dealers https://www.stoneagetools.com/contact#sewer-tab
