@@ -1194,6 +1194,7 @@ a.list-group-item:hover {
   text-transform:uppercase;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
+  letter-spacing: 1px;
 }
 .contact .nav-tabs>li.active>a, .contact .nav-tabs>li.active>a:focus, .contact .nav-tabs>li.active>a:hover {
   color: #555;
@@ -1201,6 +1202,7 @@ a.list-group-item:hover {
   background-color: #f2f2f2;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
+  font-weight: 800;
 }
 .contact .nav>li>a:focus, .contact .nav>li>a:hover {
   background: none;
