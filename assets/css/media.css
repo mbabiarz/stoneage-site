@@ -142,6 +142,23 @@
   }
 }
 
+@media all and (max-width: 605px) {
+  .lp-propositioner .hero-txt>h3 {
+    font-size:150%;
+    line-height:100%;
+  }
+  .lp-propositioner .hero-txt>p {
+    font-size: 120%;
+    line-height: 100%;
+  }
+  .lp-propositioner .hero-txt>a {
+    font-size: 80%;
+  }
+  .lp-propositioner .benefits.mid {
+    border: none;
+  }
+}
+
 @media screen and (max-width: 605px) {
   .indicator-panel {
     display: none;
@@ -164,7 +181,11 @@
   .utilities .col-sm-12.mobile-contact {
     display: none;
   }
+  .sentinel-hero {
+    min-height:500px;
+  }
 }
+
 @media screen and (max-width: 480px) {
   .navbar-brand img {
     max-height:40px !important;
@@ -209,10 +230,10 @@
   }
 }
 
-@media all and (min-width: 420px){
+@media all and (max-width: 640px){
   .directory .mix,
   .directory .gap{
-    width: 32%;
+    width: 90% !important;
   }
 }
 @media all and (min-width: 1199px){
@@ -222,9 +243,7 @@
   }
 }
 
-
-
-/* -- Change to hamburger nave sooner -- */
+/* -- Change to hamburger nav sooner -- */
 @media (max-width: 1200px) {
   .navbar-header {
       float: none;
