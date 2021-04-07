@@ -1,7 +1,7 @@
 Options +MultiViews
 RewriteEngine On
 RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://stoneagetools.com [L,R=301]
+RewriteRule ^(.*)$ https://stoneagetools.com/$1 [L,R=301]
 
 # protect .htaccess
 <Files ~ "^.*\.([Hh][Tt][Aa])">
@@ -18,8 +18,6 @@ ErrorDocument 404 /404.html
 
 Redirect 301 /careers /jobs
 Redirect 301 /prodrive /abx-pro
-Redirect 301 /hydro-x /rotary-hydro-x
-Redirect 301 /switcher /wgr-switcher
 Redirect 301 /rotary-swivels /waterblast-tools-automated-equipment
 Redirect 301 /news http://news.stoneagetools.com/
 Redirect 301 /custom-solutions /solutions
@@ -27,7 +25,30 @@ Redirect 301 /onestopshop https://info.stoneagetools.com/one-stop-shop
 Redirect 301 /autopack-2l /autopack-2l-b
 Redirect 301 /autopack-lwp /autopack-prop
 Redirect 301 /autopack-pro /autopack-prop
+Redirect 301 /ProP /prop
 Redirect 301 /torus-booms /simple-boom
+Redirect 301 /training https://www.stoneagetraining.com
+Redirect 301 /sewer-tools https://www.warthog-nozzles.com/
+Redirect 301 /manhole-cleaner https://www.warthog-nozzles.com/warthog-accessories/
+Redirect 301 /switcher https://www.warthog-nozzles.com/wgr-magnum/
+Redirect 301 /warthog-centralizers https://www.warthog-nozzles.com/warthog-accessories/
+Redirect 301 /warthog-descalers https://www.warthog-nozzles.com/warthog-accessories/
+Redirect 301 /warthog-descalers https://www.warthog-nozzles.com/warthog-accessories/
+Redirect 301 /wd https://www.warthog-nozzles.com/wg-wd-classic/
+Redirect 301 /wg https://www.warthog-nozzles.com/wg-wd-classic/
+Redirect 301 /wgp https://www.warthog-nozzles.com/wg-wd-classic/
+Redirect 301 /wgr-magnum-125 https://www.warthog-nozzles.com/wgr-magnum/
+Redirect 301 /wgr-magnum https://www.warthog-nozzles.com/wgr-magnum/
+Redirect 301 /wgr-switcher https://www.warthog-nozzles.com/wgr-magnum/
+Redirect 301 /wh https://www.warthog-nozzles.com/wh-classic/
+Redirect 301 /whp https://www.warthog-nozzles.com/wh-classic/
+Redirect 301 /whr-hybrid-switcher https://www.warthog-nozzles.com/whr-magnum/
+Redirect 301 /whr-magnum https://www.warthog-nozzles.com/whr-magnum/
+Redirect 301 /whr-switcher https://www.warthog-nozzles.com/whr-magnum/
+Redirect 301 /ws https://www.warthog-nozzles.com/ws-classic/
+Redirect 301 /wt https://www.warthog-nozzles.com/wt-classic/
+Redirect 301 /wv https://www.warthog-nozzles.com/wv-classic/
+Redirect 301 /sentinel-now /sentinel-lp/sentinel.html
+Redirect 301 /abxs-3l /sentinel-virtual-overview/abxs-3l.html
 
 Redirect 302 /rotary-hydro-x /fixed-hydro-x
-Redirect 302 /warthog-dealers https://www.stoneagetools.com/contact#sewer-tab
