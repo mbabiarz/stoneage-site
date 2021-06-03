@@ -1,7 +1,7 @@
 Options +MultiViews
 RewriteEngine On
 RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://stoneagetools.com/$1 [L,R=301]
+RewriteRule ^(.*)$ https://stoneagetools.com [L,R=301]
 
 # protect .htaccess
 <Files ~ "^.*\.([Hh][Tt][Aa])">
