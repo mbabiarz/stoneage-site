@@ -1,7 +1,7 @@
 Options +MultiViews
 RewriteEngine On
 RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://stoneagetools.com [L,R=301]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # protect .htaccess
 <Files ~ "^.*\.([Hh][Tt][Aa])">
@@ -19,7 +19,7 @@ ErrorDocument 404 /404.html
 Redirect 301 /careers /jobs
 Redirect 301 /prodrive /abx-pro
 Redirect 301 /rotary-swivels /waterblast-tools-automated-equipment
-Redirect 301 /news http://news.stoneagetools.com/
+Redirect 301 /news https://news.stoneagetools.com/
 Redirect 301 /custom-solutions /solutions
 Redirect 301 /onestopshop https://info.stoneagetools.com/one-stop-shop
 Redirect 301 /autopack-2l /autopack-2l-b
