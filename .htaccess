@@ -50,5 +50,6 @@ Redirect 301 /wt https://www.warthog-nozzles.com/wt-classic/
 Redirect 301 /wv https://www.warthog-nozzles.com/wv-classic/
 Redirect 301 /sentinel /sentinel-lp/sentinel.html
 Redirect 301 /abxs-3l /sentinel-virtual-overview/abxs-3l.html
+Redirect 301 /sentinel-success /sentinel-win/resources.html
 
 Redirect 302 /rotary-hydro-x /fixed-hydro-x
