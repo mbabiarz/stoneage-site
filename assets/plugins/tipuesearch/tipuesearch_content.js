@@ -37,7 +37,6 @@ var tipuesearch = {"pages": [
   {"title": "SL Swivels", "text": "The SL Swivel was designed to be a versatile, compact union for use in conveying high pressure fluid from a stationary line to a rotating or twisting assembly.", "tags": "swivels, couplings, SL-P8P4, SL-MP9AV9", "url": "/sl-swivel"},
   {"title": "SM Swivels", "text": "The SM Swivel convey high pressure fluid from a stationary line to a rotating or twisting assembly.", "tags": "swivels, couplings, SM-P16, SM-P20", "url": "/sm-swivel"},
   {"title": "UH Swivels", "text": "Considered the benchmark of high pressure rotary couplings, the UH swivel was designed to convey high pressure water from a stationary line to a powered rotating or twisting assembly.", "tags": "swivels, couplings, UHS-H9H9, UH-H9H6, UH-H9G12", "url": "/uh-swivel"},
-  {"title": "Universal Camera System", "text": "The Universal Camera System securely attaches to any automated equipment and displays a clear, up-close view of the working surface on a monitor at the control box, providing better visibility of operation.", "tags": "camera", "url": "/universal-camera"},
   {"title": "VE-400 Safety Stop", "text": "The VE-400 is designed to protect the operator from a flex lance exiting the tube sheet during cleaning operations.", "tags": "chicken wing", "url": "/ve-400"},
   
   // Waterblast AE
