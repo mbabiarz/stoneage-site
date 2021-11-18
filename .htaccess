@@ -52,6 +52,8 @@ Redirect 301 /sentinel_2020 /sentinel-lp/sentinel.html
 Redirect 301 /sentinel /sentinel-lp/sentinel.html
 Redirect 301 /abxs-3l /sentinel-virtual-overview/abxs-3l.html
 Redirect 301 /sentinel-success /sentinel-win/resources.html
+Redirect 301 /maximize-labor https://info.stoneagetools.com/l/644393/2021-11-17/4fbnw8
+Redirect 301 /sentinel-productivity https://info.stoneagetools.com/l/644393/2021-11-17/4fbn7g
 Redirect 301 /abx-3l /autobox-3l
 Redirect 301 /abx-2l /autobox-2l
 Redirect 301 /autopack-2l-b /autopack-2l
