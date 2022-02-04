@@ -57,6 +57,7 @@ Redirect 301 /sentinel-productivity https://info.stoneagetools.com/l/644393/2021
 Redirect 301 /abx-3l /autobox-3l
 Redirect 301 /abx-2l /autobox-2l
 Redirect 301 /autopack-2l-b /autopack-2l
+Redirect 301 /propositioner /compass
 
 
 Redirect 302 /rotary-hydro-x /fixed-hydro-x
