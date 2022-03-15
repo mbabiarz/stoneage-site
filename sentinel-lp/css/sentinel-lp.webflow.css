@@ -400,7 +400,7 @@
 }
 
 .options {
-  width: 80%;
+/*  width: 80%;*/
   margin-right: auto;
   margin-left: auto;
   padding: 30px 60px 40px;
@@ -410,10 +410,6 @@
   grid-template-columns: 0.5fr 1.25fr;
   border-radius: 9px;
   background-color: transparent;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.76)), to(rgba(0, 0, 0, 0.76))), url('../images/ABX-3L_exchanger_tough_02.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url('../images/ABX-3L_exchanger_tough_02.jpg');
-  background-position: 0px 0px, 0% 0%;
-  background-size: auto, cover;
 }
 
 .options-container {
@@ -544,6 +540,46 @@
   border-top: 6px solid #ed2224;
   border-bottom: 6px none #ed2224;
   background-color: #181818;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.76)), to(rgba(0, 0, 0, 0.76))), url('../images/ABX-3L_exchanger_tough_02.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url('../images/ABX-3L_exchanger_tough_02.jpg');
+  background-position: 0px 0px, 0% 0%;
+  background-size: auto, cover;
+}
+
+.options-table {
+  width: 100%;
+  margin-top: 40px; 
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
+  padding-bottom: 40px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 0.25fr 0.75fr 0.25fr;
+  grid-template-columns: 0.25fr 0.75fr 0.25fr;
+  -ms-grid-rows: auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto;
+  border-radius: 9px;
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(41, 41, 41, 0.76)), to(rgba(41, 41, 41, 0.76)));
+  background-image: linear-gradient(180deg, rgba(41, 41, 41, 0.76), rgba(41, 41, 41, 0.76));
+}
+.options-table .options-label-cell {
+  width: 22%;
+}
+.options-table .options-text {
+  padding-right: 2px;
+}
+.options-table .options-btn {
+  width:15%;
+  text-align:center;
+}
+.options-table .options-btn a.btn {
+  margin-top: 0 !important;
+}
+.options-table td {
+  border-bottom: 1px solid #838383;
+  padding-top: 10px;
 }
 
 .grid {
