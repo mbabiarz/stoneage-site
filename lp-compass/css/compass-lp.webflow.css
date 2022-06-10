@@ -1,0 +1,166 @@
+.hero {
+  min-height: 500px;
+  background-image: url('../images/compass-hero.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.hero-content-holder {
+  padding-top: 60px;
+}
+
+.hero-heading {
+  color: #fff;
+  font-size: 27px;
+  line-height: 33px;
+}
+
+.body {
+  font-family: Lato, sans-serif;
+}
+
+.hero-bullets {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.hero-bullets-item {
+  padding-bottom: 16px;
+  padding-left: 10px;
+  color: #d34b40;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.column {
+  padding-right: 30px;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.sub-hero {
+  background-image: url('../images/compass-divider.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.sub-hero-content-holder {
+  max-width: 50vw;
+  padding-top: 20px;
+}
+
+.sub-hero-bullets-item {
+  padding-bottom: 16px;
+  padding-left: 10px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.red-text {
+  color: #d34b40;
+}
+
+.main-content-holder {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.main-text {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.arrow-holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.component {
+  border-bottom: 0px none #d34b40;
+  background-color: #353535;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.component-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.image {
+  border-top: 4px solid #d34b40;
+}
+
+.image-2 {
+  margin-bottom: 10px;
+}
+
+.subtext {
+  width: 50%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #888;
+  text-align: center;
+}
+
+.italic-text {
+  color: #c9c9c9;
+  letter-spacing: 1px;
+}
+
+.sa-header {
+  height: 80px;
+  border-bottom: 3px solid #fff;
+  background-color: #f8f8f8;
+}
+
+.image-3 {
+  padding-top: 15px;
+}
+
+.footer {
+  height: 180px;
+  background-color: #272727;
+}
+
+@media screen and (max-width: 767px) {
+  .hero-content-holder {
+    padding-top: 20px;
+  }
+
+  .hero-heading {
+    text-align: center;
+  }
+
+  .sub-hero-content-holder {
+    max-width: 75vw;
+  }
+
+  .component {
+    margin-top: 20px;
+  }
+
+  .image-2 {
+    display: none;
+  }
+}

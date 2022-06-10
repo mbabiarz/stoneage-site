@@ -64,4 +64,5 @@ Redirect 301 /ifat22 /ifat-2022/what-language.html
 Redirect 301 /hose-containment /hms
 
 
+Redirect 302 /autopack-compass /lp-compass/autopack.html
 Redirect 302 /rotary-hydro-x /fixed-hydro-x
