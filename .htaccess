@@ -58,7 +58,7 @@ Redirect 301 /abx-3l /autobox-3l
 Redirect 301 /abx-2l /autobox-2l
 Redirect 301 /autopack-2l-b /autopack-2l
 Redirect 301 /propositioner /compass
-Redirect 301 /compassinfo /compass
+Redirect 301 /compassinfo /autopack-compass
 Redirect 301 /sentinel-availability /sentinel-available/for2022.html
 Redirect 301 /ifat22 /ifat-2022/what-language.html
 Redirect 301 /hose-containment /hms
